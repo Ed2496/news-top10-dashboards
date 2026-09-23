@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>國際媒體比對 Dashboard · 美/日/韓/英 vs 台灣</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#eef3f8;--card:#fff;--line:#d3dfeb;--fg:#12305b;--mut:#5b7290;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;padding:24px;max-width:1280px;margin:0 auto}
+h1{font-size:22px;margin-bottom:4px}
+.sub{color:var(--mut);font-size:13px;margin-bottom:20px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;box-shadow:0 1px 3px rgba(18,48,91,.06)}
+.kpi .v{font-size:24px;font-weight:700}
+.kpi .l{color:var(--mut);font-size:12px;margin-top:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:16px;box-shadow:0 1px 3px rgba(18,48,91,.06)}
+.card h2{font-size:15px;margin-bottom:10px}
+.card .note{color:var(--mut);font-size:12px;margin-top:8px;line-height:1.7}
+canvas{max-height:320px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{color:var(--mut);font-weight:600;font-size:12px;white-space:nowrap}
+td.num,th.num{text-align:right}
+.badge{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11px;white-space:nowrap;background:#eaf1f9;color:#12305b}
+.footer{color:var(--mut);font-size:12px;margin-top:8px;line-height:1.8}
+</style>
+</head>
+<body>
+<h1>國際媒體比對 Dashboard</h1>
+<div class="sub" id="sub"></div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="grid">
+  <div class="card"><h2>各國議題分布（佔比 %,100% 堆疊）</h2><canvas id="cShare"></canvas>
+    <div class="note">台灣與美/日/韓/英同日的 Google News 焦點 Top 10 議題結構。佔比 = 該類則數 ÷ 當日上榜則數。</div></div>
+  <div class="card"><h2>對台偏差指數（總變異距離 TVD）</h2><canvas id="cTvd"></canvas>
+    <div class="note">TVD = Σ|該國佔比 − 台灣佔比| ÷ 2。數值越大,代表該國媒體議題結構與台灣差異越大(0=完全一致,100=完全無交集)。</div></div>
+  <div class="card"><h2>政治佔比 · 每日趨勢</h2><canvas id="cPol"></canvas>
+    <div class="note" id="nTrend">每日快照累積後,此圖呈現五國政治新聞佔比的逐日走勢。</div></div>
+  <div class="card"><h2>科技AI / 經濟財經佔比 · 每日趨勢</h2><canvas id="cTech"></canvas><canvas id="cEco" style="margin-top:10px"></canvas></div>
+</div>
+
+<div class="card"><h2>偏差熱力表：各國類別佔比 − 台灣（百分點）</h2>
+  <div style="overflow-x:auto"><table id="tDev"></table></div>
+  <div class="note">紅色 = 該國比台灣更偏重此類;藍色 = 台灣比該國更偏重此類。例如「政治 +20」表示該國政治佔比比台灣高 20 個百分點。</div></div>
+
+<div class="card"><h2>最新快照明細（<span id="latestDay"></span>）</h2>
+  <div style="overflow-x:auto"><table id="tRows"></table></div></div>
+
+<div class="footer" id="foot"></div>
+
+<script>
+const S = {"days": ["2026-09-23"], "latest": "2026-09-23", "countries": ["TW", "US", "JP", "KR", "UK"], "cname": {"TW": "台灣", "US": "美國", "JP": "日本", "KR": "韓國", "UK": "英國"}, "order": ["政治", "科技AI", "經濟財經", "國際地緣", "社會", "生活健康", "娛樂", "體育", "其他"], "share_all": {"TW": {"政治": 40.0, "科技AI": 0.0, "經濟財經": 0.0, "國際地緣": 20.0, "社會": 10.0, "生活健康": 20.0, "娛樂": 0.0, "體育": 0.0, "其他": 10.0}, "US": {"政治": 40.0, "科技AI": 0.0, "經濟財經": 0.0, "國際地緣": 10.0, "社會": 40.0, "生活健康": 0.0, "娛樂": 0.0, "體育": 0.0, "其他": 10.0}, "JP": {"政治": 10.0, "科技AI": 10.0, "經濟財經": 0.0, "國際地緣": 0.0, "社會": 10.0, "生活健康": 40.0, "娛樂": 0.0, "體育": 0.0, "其他": 30.0}, "KR": {"政治": 40.0, "科技AI": 10.0, "經濟財經": 0.0, "國際地緣": 10.0, "社會": 0.0, "生活健康": 0.0, "娛樂": 0.0, "體育": 0.0, "其他": 40.0}, "UK": {"政治": 20.0, "科技AI": 50.0, "經濟財經": 0.0, "國際地緣": 10.0, "社會": 0.0, "生活健康": 0.0, "娛樂": 0.0, "體育": 0.0, "其他": 20.0}}, "deviation": {"US": {"政治": 0.0, "科技AI": 0.0, "經濟財經": 0.0, "國際地緣": -10.0, "社會": 30.0, "生活健康": -20.0, "娛樂": 0.0, "體育": 0.0, "其他": 0.0}, "JP": {"政治": -30.0, "科技AI": 10.0, "經濟財經": 0.0, "國際地緣": -20.0, "社會": 0.0, "生活健康": 20.0, "娛樂": 0.0, "體育": 0.0, "其他": 20.0}, "KR": {"政治": 0.0, "科技AI": 10.0, "經濟財經": 0.0, "國際地緣": -10.0, "社會": -10.0, "生活健康": -20.0, "娛樂": 0.0, "體育": 0.0, "其他": 30.0}, "UK": {"政治": -20.0, "科技AI": 50.0, "經濟財經": 0.0, "國際地緣": -10.0, "社會": -10.0, "生活健康": -20.0, "娛樂": 0.0, "體育": 0.0, "其他": 10.0}}, "tvd": {"US": 30.0, "JP": 50.0, "KR": 40.0, "UK": 60.0}, "trend_pol": {"TW": [40.0], "US": [40.0], "JP": [10.0], "KR": [40.0], "UK": [20.0]}, "trend_tech": {"TW": [0.0], "US": [0.0], "JP": [10.0], "KR": [10.0], "UK": [50.0]}, "trend_eco": {"TW": [0.0], "US": [0.0], "JP": [0.0], "KR": [0.0], "UK": [0.0]}, "n_rows": 50, "latest_rows": [{"country": "TW", "rank": 1, "title": "舒力基颱風最快今生成！恐教師節來亂 專家：直球對決可能性正在增大 - UDN", "source": "UDN", "cat": "生活健康"}, {"country": "TW", "rank": 2, "title": "洪災周年…1把利劍仍懸在光復心上 重建路迢迢 - UDN", "source": "UDN", "cat": "生活健康"}, {"country": "TW", "rank": 3, "title": "傳恐向川普重提817公報 習近平將施壓對台軍售 - UDN", "source": "UDN", "cat": "國際地緣"}, {"country": "TW", "rank": 4, "title": "結束APEC會議返台 勞動部長洪申翰：守住對等尊嚴[影] - 中央社 CNA", "source": "中央社 CNA", "cat": "政治"}, {"country": "TW", "rank": 5, "title": "馬斯克、黃仁勳與庫克赴宴見習近平 一文看懂他們對中國的訴求 - news.cnyes.com", "source": "news.cnyes.com", "cat": "國際地緣"}, {"country": "TW", "rank": 6, "title": "花蓮鄉代參選人邱鳳英中秋晚會突倒地 送醫搶救宣告不治 - Yahoo新聞", "source": "Yahoo新聞", "cat": "社會"}, {"country": "TW", "rank": 7, "title": "蔥抓餅翻版！沈伯洋快閃延三夜市 店家快手送剉冰邀簽名吸買氣 - 自由時報", "source": "自由時報", "cat": "政治"}, {"country": "TW", "rank": 8, "title": "蔣萬安危險了？北市「政黨輪替」民調出爐 沈伯洋和他不只支持度「差距驚人」 | 李瑋萱 | 新聞 - 風傳媒", "source": "風傳媒", "cat": "政治"}, {"country": "TW", "rank": 9, "title": "自爆「徐欣瑩Game over了」 民眾黨不阻止小草投鄭朝方 - 中時新聞網", "source": "中時新聞網", "cat": "政治"}, {"country": "TW", "rank": 10, "title": "藍、綠同台！何志勇「合體」莊競程　邀高虹安市政辯論：欠學生一個道歉 - 三立新聞", "source": "三立新聞", "cat": "其他"}, {"country": "US", "rank": 1, "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines - BBC", "source": "BBC", "cat": "政治"}, {"country": "US", "rank": 2, "title": "White House launches 'Trump TV' after ban on major news outlets - NPR", "source": "NPR", "cat": "政治"}, {"country": "US", "rank": 3, "title": "Trump signs ‘fantastic’ Greenland security deal with Denmark - politico.eu", "source": "politico.eu", "cat": "政治"}, {"country": "US", "rank": 4, "title": "Grand jury finds insufficient evidence of a crime in Nolan Wells’s death - The Washington Post", "source": "The Washington Post", "cat": "社會"}, {"country": "US", "rank": 5, "title": "Trump's D.C. arch is now a military complex. Here's how that complicates things - NPR", "source": "NPR", "cat": "政治"}, {"country": "US", "rank": 6, "title": "Rare September nor'easter could bring coastal flooding, gusty winds to the Northeast - 6abc Philadelphia", "source": "6abc Philadelphia", "cat": "其他"}, {"country": "US", "rank": 7, "title": "US judge blocks deportation of DoorDash driver shot by ICE - BBC", "source": "BBC", "cat": "社會"}, {"country": "US", "rank": 8, "title": "Sen. Jon Husted: Iran war ‘needs to come to an end as quickly as possible’ - Politico", "source": "Politico", "cat": "國際地緣"}, {"country": "US", "rank": 9, "title": "Camp Mystic Owners Face Criminal Inquiry Over Deadly Flood, Warrants Show - The New York Times", "source": "The New York Times", "cat": "社會"}, {"country": "US", "rank": 10, "title": "Kratom found at locations where two Ole Miss students were discovered dead - NBC News", "source": "NBC News", "cat": "社會"}, {"country": "JP", "rank": 1, "title": "米大統領 国連でICC脱退呼びかけ - Yahoo!ニュース", "source": "Yahoo!ニュース", "cat": "其他"}, {"country": "JP", "rank": 2, "title": "「あなたの支持率をいつもモニターしている」トランプ氏 日米首脳会談冒頭のやりとり全文 - 産経ニュース", "source": "産経ニュース", "cat": "其他"}, {"country": "JP", "rank": 3, "title": "「もっと一緒にいたかった」福岡飲酒事故で死亡した３歳児の両親、声を震わせ…旅行に向かう途中で巻き込まれる - 読売新聞", "source": "読売新聞", "cat": "社會"}, {"country": "JP", "rank": 4, "title": "台風25号 千葉と神奈川で7人死亡 5人不明 浸水被害相次ぐ - NHKニュース", "source": "NHKニュース", "cat": "生活健康"}, {"country": "JP", "rank": 5, "title": "AIは「SI」に改称 米大統領宣言 - Yahoo!ニュース", "source": "Yahoo!ニュース", "cat": "科技AI"}, {"country": "JP", "rank": 6, "title": "台風25号で関東の6割が連休の予定を変更 「2日前まで」の早期判断が多数に - ウェザーニュース", "source": "ウェザーニュース", "cat": "生活健康"}, {"country": "JP", "rank": 7, "title": "台風26号発生へ…気象庁の予想進路、米軍・ヨーロッパの見方 日本への影響は - 福井新聞社", "source": "福井新聞社", "cat": "生活健康"}, {"country": "JP", "rank": 8, "title": "高市首相、ウクライナ大統領と会談 就任後初、支援継続を伝達 - 時事ドットコム", "source": "時事ドットコム", "cat": "政治"}, {"country": "JP", "rank": 9, "title": "関東や東海で雨　降り方が強まる所も　北陸や東北も次第に雨　今日23日(水)の天気(気象予報士 日直主任 2026年09月23日) - tenki.jp", "source": "tenki.jp", "cat": "生活健康"}, {"country": "JP", "rank": 10, "title": "二十四節気「秋分」 秋分の時期に咲く”彼岸花” 天界の花？地獄の花？ - ウェザーニュース", "source": "ウェザーニュース", "cat": "其他"}, {"country": "KR", "rank": 1, "title": "민주당 “조희대 ‘내란적 재제청 거부’ 사법개혁 방아쇠 될 것…국회 권한 활용 책임 묻겠다” - KBS 뉴스", "source": "KBS 뉴스", "cat": "政治"}, {"country": "KR", "rank": 2, "title": "이 대통령, 유엔 연설서 ‘비핵화’ 대신 “핵 없는 한반도” - 한겨레", "source": "한겨레", "cat": "政治"}, {"country": "KR", "rank": 3, "title": "美·이란, 유엔총회 계기 고위급 회담… 트럼프 \"매우 좋은 만남\" - 조선일보", "source": "조선일보", "cat": "國際地緣"}, {"country": "KR", "rank": 4, "title": "죠스바 매출 껑충·카페는 ’죠스점’ 변신…’부산 상어 특수’ - 연합뉴스TV", "source": "연합뉴스TV", "cat": "其他"}, {"country": "KR", "rank": 5, "title": "시진핑 방미단에 AI 수장들 빠진 듯…\"핵심 인재 보호\" - 연합뉴스TV", "source": "연합뉴스TV", "cat": "科技AI"}, {"country": "KR", "rank": 6, "title": "'매관매직' 징역 5년으로‥'콘스탄틴' 시계 빠져 - MBC 뉴스", "source": "MBC 뉴스", "cat": "其他"}, {"country": "KR", "rank": 7, "title": "‘중도·서울·30대·뉴이재명’의 이탈…지지율 하락 폭 키워 - 한겨레", "source": "한겨레", "cat": "政治"}, {"country": "KR", "rank": 8, "title": "[속보] 이정현 신임 대검 차장 \"李 공소취소, 진상조사 결과 살펴봐야\" - MBC 뉴스", "source": "MBC 뉴스", "cat": "其他"}, {"country": "KR", "rank": 9, "title": "文 前대통령 ‘뇌물’ 혐의, 내년 1월 국민참여재판 - 동아일보", "source": "동아일보", "cat": "政治"}, {"country": "KR", "rank": 10, "title": "김승원 인사 논란에, 다시 주목받는 李최측근 정진상-김현지 - 동아일보", "source": "동아일보", "cat": "其他"}, {"country": "UK", "rank": 1, "title": "Trump praises relations with Burnham despite tensions over AI and Iran - The Guardian", "source": "The Guardian", "cat": "政治"}, {"country": "UK", "rank": 2, "title": "UK to fight Russian disinformation and push new global AI standards, Burnham says - BBC", "source": "BBC", "cat": "科技AI"}, {"country": "UK", "rank": 3, "title": "UN latest: Iran given 'two choices' by Trump - after Greenland deal signed which 'can last forever' - Sky News", "source": "Sky News", "cat": "政治"}, {"country": "UK", "rank": 4, "title": "Burnham will do ‘everything possible’ to hand over Chagos Islands - The Telegraph", "source": "The Telegraph", "cat": "其他"}, {"country": "UK", "rank": 5, "title": "Developing El Niño becomes strongest on record weeks before expected peak - BBC", "source": "BBC", "cat": "其他"}, {"country": "UK", "rank": 6, "title": "Two men arrested over suspected terrorist plot to target Jewish community in Manchester area - Sky News", "source": "Sky News", "cat": "科技AI"}, {"country": "UK", "rank": 7, "title": "The Princess of Wales dazzles with amethyst heart necklace at first premiere in four years - The Telegraph", "source": "The Telegraph", "cat": "科技AI"}, {"country": "UK", "rank": 8, "title": "Migrant dinghy heading towards UK was at sea more than 33 hours, French officials say - Sky News", "source": "Sky News", "cat": "國際地緣"}, {"country": "UK", "rank": 9, "title": "Children as young as 13 being referred to UK hospital suffering from ‘ketamine bladder’ - The Guardian", "source": "The Guardian", "cat": "科技AI"}, {"country": "UK", "rank": 10, "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard - The Guardian", "source": "The Guardian", "cat": "科技AI"}], "daily_counts": {"2026-09-23|TW": {"生活健康": 2, "國際地緣": 2, "政治": 4, "社會": 1, "其他": 1}, "2026-09-23|US": {"政治": 4, "社會": 4, "其他": 1, "國際地緣": 1}, "2026-09-23|JP": {"其他": 3, "社會": 1, "生活健康": 4, "科技AI": 1, "政治": 1}, "2026-09-23|KR": {"政治": 4, "國際地緣": 1, "其他": 4, "科技AI": 1}, "2026-09-23|UK": {"政治": 2, "科技AI": 5, "其他": 2, "國際地緣": 1}}};
+const CN = S.cname, ORDER = S.order, CS = S.countries;
+const CCOL = {"政治":"#bc8cff","科技AI":"#ff9e64","經濟財經":"#d29922","國際地緣":"#58a6ff","社會":"#f85149","生活健康":"#3fb950","娛樂":"#f778ba","體育":"#39c5cf","其他":"#8b949e"};
+const CCOL5 = {TW:"#0d9488",US:"#0284c7",JP:"#e11d48",KR:"#7c3aed",UK:"#d97706"};
+Chart.defaults.color="#3f5878";Chart.defaults.borderColor="#d3dfeb";Chart.defaults.font.family='"Microsoft JhengHei",sans-serif';
+
+document.getElementById("sub").textContent =
+  `資料來源:Google News 焦點新聞 RSS 快照(每國 Top 10)· 國家:台灣/美國/日本/韓國/英國 · 期間 ${S.days[0]}–${S.latest}(${S.days.length} 天)· 共 ${S.n_rows} 筆`;
+
+// KPI
+const tvdSorted = Object.entries(S.tvd).sort((a,b)=>b[1]-a[1]);
+const most = tvdSorted[0], least = tvdSorted[tvdSorted.length-1];
+document.getElementById("kpis").innerHTML = [
+  [S.days.length, "累積天數"], [S.n_rows, "累積上榜筆數"],
+  [CN[most[0]]+" "+most[1], "與台灣差異最大(TVD)"],
+  [CN[least[0]]+" "+least[1], "與台灣最接近(TVD)"],
+].map(k=>`<div class="kpi"><div class="v">${k[0]}</div><div class="l">${k[1]}</div></div>`).join("");
+
+// 100% stacked share
+new Chart(cShare,{type:"bar",data:{labels:CS.map(c=>CN[c]),
+  datasets:ORDER.map(cat=>({label:cat,data:CS.map(c=>S.share_all[c][cat]),backgroundColor:CCOL[cat]}))},
+  options:{scales:{x:{stacked:true},y:{stacked:true,max:100,ticks:{callback:v=>v+"%"}}},plugins:{legend:{position:"right"}}}});
+
+// TVD bar
+const tvdKeys=Object.keys(S.tvd);
+new Chart(cTvd,{type:"bar",data:{labels:tvdKeys.map(c=>CN[c]),datasets:[{data:tvdKeys.map(c=>S.tvd[c]),backgroundColor:tvdKeys.map(c=>CCOL5[c])}]},
+  options:{plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,max:100}}}});
+
+// trends
+function trendChart(el, data, label){
+  new Chart(el,{type:"line",data:{labels:S.days.map(d=>d.slice(5).replace("-","/")),
+    datasets:CS.map(c=>({label:CN[c],data:data[c],borderColor:CCOL5[c],backgroundColor:CCOL5[c],tension:.3,spanGaps:true}))},
+    options:{scales:{y:{beginAtZero:true,ticks:{callback:v=>v+"%"}}},plugins:{legend:{position:"right"}}}});
+}
+trendChart(cPol, S.trend_pol, "政治");
+trendChart(cTech, S.trend_tech, "科技AI");
+trendChart(cEco, S.trend_eco, "經濟財經");
+if(S.days.length<3) document.getElementById("nTrend").textContent =
+  `目前僅累積 ${S.days.length} 天快照,趨勢線會隨每日抓取逐漸成形(建議掛每日定時任務)。`;
+
+// deviation heat table
+const cats = ORDER.filter(c=>c!=="其他");
+let h = "<tr><th>類別</th>"+tvdKeys.map(c=>`<th class="num">${CN[c]}</th>`).join("")+"</tr>";
+for(const cat of cats){
+  h += `<tr><td>${cat}</td>`;
+  for(const c of tvdKeys){
+    const v = S.deviation[c][cat];
+    const a = Math.min(Math.abs(v)/40,1);
+    const bg = v>0 ? `rgba(225,29,72,${0.08+0.5*a})` : v<0 ? `rgba(2,132,199,${0.08+0.5*a})` : "transparent";
+    h += `<td class="num" style="background:${bg}">${v>0?"+":""}${v}</td>`;
+  }
+  h += "</tr>";
+}
+document.getElementById("tDev").innerHTML = h;
+
+// latest rows
+document.getElementById("latestDay").textContent = S.latest;
+document.getElementById("tRows").innerHTML =
+  "<tr><th>國家</th><th>#</th><th>標題</th><th>來源</th><th>類別</th></tr>" +
+  S.latest_rows.map(r=>`<tr><td>${CN[r.country]}</td><td>${r.rank}</td><td>${r.title}</td><td>${r.source}</td><td><span class="badge" style="background:${CCOL[r.cat]}22;color:${CCOL[r.cat]}">${r.cat}</span></td></tr>`).join("");
+
+document.getElementById("foot").innerHTML =
+ `方法說明:每國取 Google News 焦點新聞 RSS 前 10 則;分類為多語(中/英/日/韓)關鍵字規則,命中政治詞庫優先歸「政治」。<br>`+
+ `佔比以當日上榜則數為分母;偏差為百分點差。關鍵字分類存在誤判率,跨語比對解讀時請留意語言特性差異。<br>`+
+ `台灣歷史深度分析請見「台灣新聞儀表板.html」。`;
+</script>
+</body>
+</html>

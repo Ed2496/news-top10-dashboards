@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新聞輿情儀表板 · 台灣專注版 + 五國比對版</title>
+<style>
+:root{--bg:#eef3f8;--card:#fff;--line:#d3dfeb;--fg:#12305b;--mut:#5b7290;--ac:#0284c7;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;padding:40px 24px;max-width:900px;margin:0 auto}
+h1{font-size:24px;margin-bottom:6px}
+.sub{color:var(--mut);font-size:14px;margin-bottom:28px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:18px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;text-decoration:none;color:var(--fg);box-shadow:0 1px 3px rgba(18,48,91,.06);transition:box-shadow .15s}
+a.card:hover{box-shadow:0 4px 14px rgba(18,48,91,.14)}
+.card h2{font-size:18px;margin-bottom:8px;color:var(--ac)}
+.card p{font-size:13px;color:var(--mut);line-height:1.7}
+.footer{margin-top:28px;font-size:12px;color:var(--mut);line-height:1.8}
+code{background:#e6eef6;padding:1px 6px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>新聞輿情儀表板</h1>
+<div class="sub">Google News 焦點新聞 Top 10 每日快照 · 關鍵字規則分類 · 每日自動更新</div>
+
+<div class="cards">
+  <a class="card" href="./taiwan.html">
+    <h2>台灣新聞儀表板 →</h2>
+    <p>台灣 Google News Top 10 彙整分析：議題比重與聲量、逐日趨勢、執政 vs 在野批判聲量、立場結構、媒體來源分布。資料期間 2026/09/09 起,歷史區間經人工逐則覆核。</p>
+  </a>
+  <a class="card" href="./international.html">
+    <h2>國際比對儀表板 →</h2>
+    <p>台灣 / 美國 / 日本 / 韓國 / 英國五國並排:議題分類佔比 100% 堆疊、對台偏差熱力表、TVD 差異指數、政治/科技/經濟佔比每日趨勢。多語(中/英/日/韓)關鍵字分類。</p>
+  </a>
+</div>
+
+<div class="footer">
+方法說明:每國取 Google News 焦點新聞 RSS 前 10 則,以多語關鍵字規則分為八大類(政治/科技AI/經濟財經/國際地緣/社會/生活健康/娛樂/體育/其他)。<br>
+原始碼與資料見 <code>scripts/</code> 與 <code>data/</code>;台灣歷史明細見 <code>data/tw_classified_all.csv</code>。
+</div>
+</body>
+</html>

@@ -1,0 +1,578 @@
+{
+ "days": [
+  "2026-09-23"
+ ],
+ "latest": "2026-09-23",
+ "countries": [
+  "TW",
+  "US",
+  "JP",
+  "KR",
+  "UK"
+ ],
+ "cname": {
+  "TW": "台灣",
+  "US": "美國",
+  "JP": "日本",
+  "KR": "韓國",
+  "UK": "英國"
+ },
+ "order": [
+  "政治",
+  "科技AI",
+  "經濟財經",
+  "國際地緣",
+  "社會",
+  "生活健康",
+  "娛樂",
+  "體育",
+  "其他"
+ ],
+ "share_all": {
+  "TW": {
+   "政治": 40.0,
+   "科技AI": 0.0,
+   "經濟財經": 0.0,
+   "國際地緣": 20.0,
+   "社會": 10.0,
+   "生活健康": 20.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 10.0
+  },
+  "US": {
+   "政治": 40.0,
+   "科技AI": 0.0,
+   "經濟財經": 0.0,
+   "國際地緣": 10.0,
+   "社會": 40.0,
+   "生活健康": 0.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 10.0
+  },
+  "JP": {
+   "政治": 10.0,
+   "科技AI": 10.0,
+   "經濟財經": 0.0,
+   "國際地緣": 0.0,
+   "社會": 10.0,
+   "生活健康": 40.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 30.0
+  },
+  "KR": {
+   "政治": 40.0,
+   "科技AI": 10.0,
+   "經濟財經": 0.0,
+   "國際地緣": 10.0,
+   "社會": 0.0,
+   "生活健康": 0.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 40.0
+  },
+  "UK": {
+   "政治": 20.0,
+   "科技AI": 50.0,
+   "經濟財經": 0.0,
+   "國際地緣": 10.0,
+   "社會": 0.0,
+   "生活健康": 0.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 20.0
+  }
+ },
+ "deviation": {
+  "US": {
+   "政治": 0.0,
+   "科技AI": 0.0,
+   "經濟財經": 0.0,
+   "國際地緣": -10.0,
+   "社會": 30.0,
+   "生活健康": -20.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 0.0
+  },
+  "JP": {
+   "政治": -30.0,
+   "科技AI": 10.0,
+   "經濟財經": 0.0,
+   "國際地緣": -20.0,
+   "社會": 0.0,
+   "生活健康": 20.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 20.0
+  },
+  "KR": {
+   "政治": 0.0,
+   "科技AI": 10.0,
+   "經濟財經": 0.0,
+   "國際地緣": -10.0,
+   "社會": -10.0,
+   "生活健康": -20.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 30.0
+  },
+  "UK": {
+   "政治": -20.0,
+   "科技AI": 50.0,
+   "經濟財經": 0.0,
+   "國際地緣": -10.0,
+   "社會": -10.0,
+   "生活健康": -20.0,
+   "娛樂": 0.0,
+   "體育": 0.0,
+   "其他": 10.0
+  }
+ },
+ "tvd": {
+  "US": 30.0,
+  "JP": 50.0,
+  "KR": 40.0,
+  "UK": 60.0
+ },
+ "trend_pol": {
+  "TW": [
+   40.0
+  ],
+  "US": [
+   40.0
+  ],
+  "JP": [
+   10.0
+  ],
+  "KR": [
+   40.0
+  ],
+  "UK": [
+   20.0
+  ]
+ },
+ "trend_tech": {
+  "TW": [
+   0.0
+  ],
+  "US": [
+   0.0
+  ],
+  "JP": [
+   10.0
+  ],
+  "KR": [
+   10.0
+  ],
+  "UK": [
+   50.0
+  ]
+ },
+ "trend_eco": {
+  "TW": [
+   0.0
+  ],
+  "US": [
+   0.0
+  ],
+  "JP": [
+   0.0
+  ],
+  "KR": [
+   0.0
+  ],
+  "UK": [
+   0.0
+  ]
+ },
+ "n_rows": 50,
+ "latest_rows": [
+  {
+   "country": "TW",
+   "rank": 1,
+   "title": "舒力基颱風最快今生成！恐教師節來亂 專家：直球對決可能性正在增大 - UDN",
+   "source": "UDN",
+   "cat": "生活健康"
+  },
+  {
+   "country": "TW",
+   "rank": 2,
+   "title": "洪災周年…1把利劍仍懸在光復心上 重建路迢迢 - UDN",
+   "source": "UDN",
+   "cat": "生活健康"
+  },
+  {
+   "country": "TW",
+   "rank": 3,
+   "title": "傳恐向川普重提817公報 習近平將施壓對台軍售 - UDN",
+   "source": "UDN",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "TW",
+   "rank": 4,
+   "title": "結束APEC會議返台 勞動部長洪申翰：守住對等尊嚴[影] - 中央社 CNA",
+   "source": "中央社 CNA",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 5,
+   "title": "馬斯克、黃仁勳與庫克赴宴見習近平 一文看懂他們對中國的訴求 - news.cnyes.com",
+   "source": "news.cnyes.com",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "TW",
+   "rank": 6,
+   "title": "花蓮鄉代參選人邱鳳英中秋晚會突倒地 送醫搶救宣告不治 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "社會"
+  },
+  {
+   "country": "TW",
+   "rank": 7,
+   "title": "蔥抓餅翻版！沈伯洋快閃延三夜市 店家快手送剉冰邀簽名吸買氣 - 自由時報",
+   "source": "自由時報",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 8,
+   "title": "蔣萬安危險了？北市「政黨輪替」民調出爐 沈伯洋和他不只支持度「差距驚人」 | 李瑋萱 | 新聞 - 風傳媒",
+   "source": "風傳媒",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 9,
+   "title": "自爆「徐欣瑩Game over了」 民眾黨不阻止小草投鄭朝方 - 中時新聞網",
+   "source": "中時新聞網",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 10,
+   "title": "藍、綠同台！何志勇「合體」莊競程　邀高虹安市政辯論：欠學生一個道歉 - 三立新聞",
+   "source": "三立新聞",
+   "cat": "其他"
+  },
+  {
+   "country": "US",
+   "rank": 1,
+   "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines - BBC",
+   "source": "BBC",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 2,
+   "title": "White House launches 'Trump TV' after ban on major news outlets - NPR",
+   "source": "NPR",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 3,
+   "title": "Trump signs ‘fantastic’ Greenland security deal with Denmark - politico.eu",
+   "source": "politico.eu",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 4,
+   "title": "Grand jury finds insufficient evidence of a crime in Nolan Wells’s death - The Washington Post",
+   "source": "The Washington Post",
+   "cat": "社會"
+  },
+  {
+   "country": "US",
+   "rank": 5,
+   "title": "Trump's D.C. arch is now a military complex. Here's how that complicates things - NPR",
+   "source": "NPR",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 6,
+   "title": "Rare September nor'easter could bring coastal flooding, gusty winds to the Northeast - 6abc Philadelphia",
+   "source": "6abc Philadelphia",
+   "cat": "其他"
+  },
+  {
+   "country": "US",
+   "rank": 7,
+   "title": "US judge blocks deportation of DoorDash driver shot by ICE - BBC",
+   "source": "BBC",
+   "cat": "社會"
+  },
+  {
+   "country": "US",
+   "rank": 8,
+   "title": "Sen. Jon Husted: Iran war ‘needs to come to an end as quickly as possible’ - Politico",
+   "source": "Politico",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "US",
+   "rank": 9,
+   "title": "Camp Mystic Owners Face Criminal Inquiry Over Deadly Flood, Warrants Show - The New York Times",
+   "source": "The New York Times",
+   "cat": "社會"
+  },
+  {
+   "country": "US",
+   "rank": 10,
+   "title": "Kratom found at locations where two Ole Miss students were discovered dead - NBC News",
+   "source": "NBC News",
+   "cat": "社會"
+  },
+  {
+   "country": "JP",
+   "rank": 1,
+   "title": "米大統領 国連でICC脱退呼びかけ - Yahoo!ニュース",
+   "source": "Yahoo!ニュース",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 2,
+   "title": "「あなたの支持率をいつもモニターしている」トランプ氏 日米首脳会談冒頭のやりとり全文 - 産経ニュース",
+   "source": "産経ニュース",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 3,
+   "title": "「もっと一緒にいたかった」福岡飲酒事故で死亡した３歳児の両親、声を震わせ…旅行に向かう途中で巻き込まれる - 読売新聞",
+   "source": "読売新聞",
+   "cat": "社會"
+  },
+  {
+   "country": "JP",
+   "rank": 4,
+   "title": "台風25号 千葉と神奈川で7人死亡 5人不明 浸水被害相次ぐ - NHKニュース",
+   "source": "NHKニュース",
+   "cat": "生活健康"
+  },
+  {
+   "country": "JP",
+   "rank": 5,
+   "title": "AIは「SI」に改称 米大統領宣言 - Yahoo!ニュース",
+   "source": "Yahoo!ニュース",
+   "cat": "科技AI"
+  },
+  {
+   "country": "JP",
+   "rank": 6,
+   "title": "台風25号で関東の6割が連休の予定を変更 「2日前まで」の早期判断が多数に - ウェザーニュース",
+   "source": "ウェザーニュース",
+   "cat": "生活健康"
+  },
+  {
+   "country": "JP",
+   "rank": 7,
+   "title": "台風26号発生へ…気象庁の予想進路、米軍・ヨーロッパの見方 日本への影響は - 福井新聞社",
+   "source": "福井新聞社",
+   "cat": "生活健康"
+  },
+  {
+   "country": "JP",
+   "rank": 8,
+   "title": "高市首相、ウクライナ大統領と会談 就任後初、支援継続を伝達 - 時事ドットコム",
+   "source": "時事ドットコム",
+   "cat": "政治"
+  },
+  {
+   "country": "JP",
+   "rank": 9,
+   "title": "関東や東海で雨　降り方が強まる所も　北陸や東北も次第に雨　今日23日(水)の天気(気象予報士 日直主任 2026年09月23日) - tenki.jp",
+   "source": "tenki.jp",
+   "cat": "生活健康"
+  },
+  {
+   "country": "JP",
+   "rank": 10,
+   "title": "二十四節気「秋分」 秋分の時期に咲く”彼岸花” 天界の花？地獄の花？ - ウェザーニュース",
+   "source": "ウェザーニュース",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 1,
+   "title": "민주당 “조희대 ‘내란적 재제청 거부’ 사법개혁 방아쇠 될 것…국회 권한 활용 책임 묻겠다” - KBS 뉴스",
+   "source": "KBS 뉴스",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
+   "rank": 2,
+   "title": "이 대통령, 유엔 연설서 ‘비핵화’ 대신 “핵 없는 한반도” - 한겨레",
+   "source": "한겨레",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
+   "rank": 3,
+   "title": "美·이란, 유엔총회 계기 고위급 회담… 트럼프 \"매우 좋은 만남\" - 조선일보",
+   "source": "조선일보",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "KR",
+   "rank": 4,
+   "title": "죠스바 매출 껑충·카페는 ’죠스점’ 변신…’부산 상어 특수’ - 연합뉴스TV",
+   "source": "연합뉴스TV",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 5,
+   "title": "시진핑 방미단에 AI 수장들 빠진 듯…\"핵심 인재 보호\" - 연합뉴스TV",
+   "source": "연합뉴스TV",
+   "cat": "科技AI"
+  },
+  {
+   "country": "KR",
+   "rank": 6,
+   "title": "'매관매직' 징역 5년으로‥'콘스탄틴' 시계 빠져 - MBC 뉴스",
+   "source": "MBC 뉴스",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 7,
+   "title": "‘중도·서울·30대·뉴이재명’의 이탈…지지율 하락 폭 키워 - 한겨레",
+   "source": "한겨레",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
+   "rank": 8,
+   "title": "[속보] 이정현 신임 대검 차장 \"李 공소취소, 진상조사 결과 살펴봐야\" - MBC 뉴스",
+   "source": "MBC 뉴스",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 9,
+   "title": "文 前대통령 ‘뇌물’ 혐의, 내년 1월 국민참여재판 - 동아일보",
+   "source": "동아일보",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
+   "rank": 10,
+   "title": "김승원 인사 논란에, 다시 주목받는 李최측근 정진상-김현지 - 동아일보",
+   "source": "동아일보",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
+   "rank": 1,
+   "title": "Trump praises relations with Burnham despite tensions over AI and Iran - The Guardian",
+   "source": "The Guardian",
+   "cat": "政治"
+  },
+  {
+   "country": "UK",
+   "rank": 2,
+   "title": "UK to fight Russian disinformation and push new global AI standards, Burnham says - BBC",
+   "source": "BBC",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 3,
+   "title": "UN latest: Iran given 'two choices' by Trump - after Greenland deal signed which 'can last forever' - Sky News",
+   "source": "Sky News",
+   "cat": "政治"
+  },
+  {
+   "country": "UK",
+   "rank": 4,
+   "title": "Burnham will do ‘everything possible’ to hand over Chagos Islands - The Telegraph",
+   "source": "The Telegraph",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
+   "rank": 5,
+   "title": "Developing El Niño becomes strongest on record weeks before expected peak - BBC",
+   "source": "BBC",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
+   "rank": 6,
+   "title": "Two men arrested over suspected terrorist plot to target Jewish community in Manchester area - Sky News",
+   "source": "Sky News",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 7,
+   "title": "The Princess of Wales dazzles with amethyst heart necklace at first premiere in four years - The Telegraph",
+   "source": "The Telegraph",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 8,
+   "title": "Migrant dinghy heading towards UK was at sea more than 33 hours, French officials say - Sky News",
+   "source": "Sky News",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "UK",
+   "rank": 9,
+   "title": "Children as young as 13 being referred to UK hospital suffering from ‘ketamine bladder’ - The Guardian",
+   "source": "The Guardian",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 10,
+   "title": "Far-right activist Daniel Thomas slashes dinghy in Channel with blade while rescue worker onboard - The Guardian",
+   "source": "The Guardian",
+   "cat": "科技AI"
+  }
+ ],
+ "daily_counts": {
+  "2026-09-23|TW": {
+   "生活健康": 2,
+   "國際地緣": 2,
+   "政治": 4,
+   "社會": 1,
+   "其他": 1
+  },
+  "2026-09-23|US": {
+   "政治": 4,
+   "社會": 4,
+   "其他": 1,
+   "國際地緣": 1
+  },
+  "2026-09-23|JP": {
+   "其他": 3,
+   "社會": 1,
+   "生活健康": 4,
+   "科技AI": 1,
+   "政治": 1
+  },
+  "2026-09-23|KR": {
+   "政治": 4,
+   "國際地緣": 1,
+   "其他": 4,
+   "科技AI": 1
+  },
+  "2026-09-23|UK": {
+   "政治": 2,
+   "科技AI": 5,
+   "其他": 2,
+   "國際地緣": 1
+  }
+ }
+}
