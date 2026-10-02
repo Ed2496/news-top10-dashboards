@@ -5,10 +5,52 @@ import json, os
 WS = os.path.dirname(os.path.abspath(__file__))
 stats = json.load(open(WS + "/tw_stats.json", encoding="utf-8"))
 
-# Markdown 報告 → HTML
+# Markdown 報告 → HTML(2.3 / 3.3 逐日表格改由最新 stats 自動重算)
 from markdown_it import MarkdownIt
-md_html = MarkdownIt("commonmark").enable("table").render(
-    open(WS + "/統計報告.md", encoding="utf-8").read())
+
+def _mmdd(d):
+    return d[5:].replace("-", "/")
+
+
+_days = stats["days"]
+_fd = stats["focus_day"]
+_sd = stats["st_day"]
+_ratio = stats["daily_ratio"]
+
+_t23 = ["| 日期 | 政治 | 國際 | 經濟 | AI科技 |", "|---|---|---|---|---|"]
+for _i, _d in enumerate(_days):
+    _t23.append(f"| {_mmdd(_d)} | {_fd['政治'][_i]} | {_fd['國際'][_i]} | {_fd['經濟財經'][_i]} | {_fd['AI科技'][_i]} |")
+
+_t33 = ["| 日期 | 批執政 | 批在野 | 互批 | 指向執政% |", "|---|---|---|---|---|"]
+for _i, _d in enumerate(_days):
+    _r = _ratio[_i]
+    _t33.append(f"| {_mmdd(_d)} | {_sd['批執政'][_i]} | {_sd['批在野'][_i]} | {_sd['互批'][_i]} | {('%.1f' % _r) if _r is not None else '—'} |")
+
+
+def _swap_table(md_text, header, table_lines):
+    lines, out, i = md_text.split("\n"), [], 0
+    while i < len(lines):
+        out.append(lines[i])
+        if lines[i].strip().startswith(header):
+            j = i + 1
+            while j < len(lines) and not lines[j].strip().startswith("|"):
+                out.append(lines[j])
+                j += 1
+            while j < len(lines) and lines[j].strip().startswith("|"):
+                j += 1
+            out.extend(table_lines)
+            i = j
+            continue
+        i += 1
+    return "\n".join(out)
+
+
+_md = open(WS + "/統計報告.md", encoding="utf-8").read()
+_md = _swap_table(_md, "### 2.3", _t23)
+_md = _swap_table(_md, "### 3.3", _t33)
+_md += ("\n\n> 註:2.3 / 3.3 逐日表格由系統依最新快照自動重算至 "
+        + _mmdd(_days[-1]) + ";其餘章節文字為 09/09–09/21 人工覆核期間的判讀。\n")
+md_html = MarkdownIt("commonmark").enable("table").render(_md)
 
 DATA = json.dumps(stats, ensure_ascii=False)
 
@@ -149,6 +191,7 @@ html = HTML.replace("__DATA__", DATA).replace("__REPORT__", md_html)
 period = stats["days"][0].replace("-", "/") + "–" + stats["days"][-1].replace("-", "/")
 html = html.replace("2026/09/09–09/21", period)
 html = html.replace("38 個快照檔", f'{stats["n_files"]} 個快照檔')
+html = html.replace("日均 15.8 次", f'日均 {sum(_fd["政治"]) / len(_days):.1f} 次')
 html = html.replace('<div class="footer" id="foot"></div>',
     '<div class="card"><h2>更新紀錄</h2><div class="note">'
     f'{stats["days"][-1].replace("-","/")}：新增當日 Google News RSS 快照（10 筆，規則自動分類、未人工覆核）；09/22 無快照，趨勢線跨日直接相連。'
