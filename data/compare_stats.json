@@ -10,9 +10,10 @@
   "2026-10-01",
   "2026-10-02",
   "2026-10-03",
-  "2026-10-04"
+  "2026-10-04",
+  "2026-10-05"
  ],
- "latest": "2026-10-04",
+ "latest": "2026-10-05",
  "countries": [
   "TW",
   "US",
@@ -40,112 +41,112 @@
  ],
  "share_all": {
   "TW": {
-   "政治": 34.5,
-   "科技AI": 5.5,
+   "政治": 35.8,
+   "科技AI": 5.0,
    "經濟財經": 0.0,
-   "國際地緣": 11.8,
-   "社會": 4.5,
-   "生活健康": 10.9,
+   "國際地緣": 10.8,
+   "社會": 4.2,
+   "生活健康": 10.8,
    "娛樂": 0.0,
-   "體育": 0.9,
-   "其他": 31.8
+   "體育": 0.8,
+   "其他": 32.5
   },
   "US": {
-   "政治": 44.5,
-   "科技AI": 30.9,
+   "政治": 44.2,
+   "科技AI": 32.5,
    "經濟財經": 0.0,
-   "國際地緣": 1.8,
-   "社會": 12.7,
-   "生活健康": 1.8,
-   "娛樂": 0.9,
+   "國際地緣": 1.7,
+   "社會": 12.5,
+   "生活健康": 1.7,
+   "娛樂": 0.8,
    "體育": 0.0,
-   "其他": 7.3
+   "其他": 6.7
   },
   "JP": {
-   "政治": 18.2,
-   "科技AI": 1.8,
-   "經濟財經": 4.5,
-   "國際地緣": 8.2,
-   "社會": 12.7,
-   "生活健康": 22.7,
+   "政治": 18.3,
+   "科技AI": 1.7,
+   "經濟財經": 5.8,
+   "國際地緣": 7.5,
+   "社會": 14.2,
+   "生活健康": 22.5,
    "娛樂": 0.0,
-   "體育": 0.9,
-   "其他": 30.9
+   "體育": 0.8,
+   "其他": 29.2
   },
   "KR": {
-   "政治": 40.9,
-   "科技AI": 0.9,
-   "經濟財經": 0.9,
-   "國際地緣": 6.4,
-   "社會": 6.4,
-   "生活健康": 1.8,
+   "政治": 41.7,
+   "科技AI": 0.8,
+   "經濟財經": 1.7,
+   "國際地緣": 5.8,
+   "社會": 5.8,
+   "生活健康": 2.5,
    "娛樂": 0.0,
    "體育": 0.0,
-   "其他": 42.7
+   "其他": 41.7
   },
   "UK": {
-   "政治": 10.9,
-   "科技AI": 51.8,
-   "經濟財經": 0.9,
-   "國際地緣": 1.8,
-   "社會": 13.6,
+   "政治": 11.7,
+   "科技AI": 49.2,
+   "經濟財經": 0.8,
+   "國際地緣": 1.7,
+   "社會": 14.2,
    "生活健康": 0.0,
-   "娛樂": 0.9,
+   "娛樂": 0.8,
    "體育": 0.0,
-   "其他": 20.0
+   "其他": 21.7
   }
  },
  "deviation": {
   "US": {
-   "政治": 10.0,
-   "科技AI": 25.4,
+   "政治": 8.4,
+   "科技AI": 27.5,
    "經濟財經": 0.0,
-   "國際地緣": -10.0,
-   "社會": 8.2,
+   "國際地緣": -9.1,
+   "社會": 8.3,
    "生活健康": -9.1,
-   "娛樂": 0.9,
-   "體育": -0.9,
-   "其他": -24.5
+   "娛樂": 0.8,
+   "體育": -0.8,
+   "其他": -25.8
   },
   "JP": {
-   "政治": -16.3,
-   "科技AI": -3.7,
-   "經濟財經": 4.5,
-   "國際地緣": -3.6,
-   "社會": 8.2,
-   "生活健康": 11.8,
+   "政治": -17.5,
+   "科技AI": -3.3,
+   "經濟財經": 5.8,
+   "國際地緣": -3.3,
+   "社會": 10.0,
+   "生活健康": 11.7,
    "娛樂": 0.0,
    "體育": 0.0,
-   "其他": -0.9
+   "其他": -3.3
   },
   "KR": {
-   "政治": 6.4,
-   "科技AI": -4.6,
-   "經濟財經": 0.9,
-   "國際地緣": -5.4,
-   "社會": 1.9,
-   "生活健康": -9.1,
+   "政治": 5.9,
+   "科技AI": -4.2,
+   "經濟財經": 1.7,
+   "國際地緣": -5.0,
+   "社會": 1.6,
+   "生活健康": -8.3,
    "娛樂": 0.0,
-   "體育": -0.9,
-   "其他": 10.9
+   "體育": -0.8,
+   "其他": 9.2
   },
   "UK": {
-   "政治": -23.6,
-   "科技AI": 46.3,
-   "經濟財經": 0.9,
-   "國際地緣": -10.0,
-   "社會": 9.1,
-   "生活健康": -10.9,
-   "娛樂": 0.9,
-   "體育": -0.9,
-   "其他": -11.8
+   "政治": -24.1,
+   "科技AI": 44.2,
+   "經濟財經": 0.8,
+   "國際地緣": -9.1,
+   "社會": 10.0,
+   "生活健康": -10.8,
+   "娛樂": 0.8,
+   "體育": -0.8,
+   "其他": -10.8
   }
  },
  "tvd": {
-  "US": 44.5,
-  "JP": 24.5,
-  "KR": 20.1,
-  "UK": 57.2
+  "US": 44.9,
+  "JP": 27.4,
+  "KR": 18.4,
+  "UK": 55.7
  },
  "trend_pol": {
   "TW": [
@@ -159,6 +160,7 @@
    30.0,
    30.0,
    20.0,
+   50.0,
    50.0
   ],
   "US": [
@@ -172,6 +174,7 @@
    30.0,
    40.0,
    50.0,
+   40.0,
    40.0
   ],
   "JP": [
@@ -185,7 +188,8 @@
    20.0,
    30.0,
    10.0,
-   30.0
+   30.0,
+   20.0
   ],
   "KR": [
    40.0,
@@ -198,7 +202,8 @@
    40.0,
    30.0,
    30.0,
-   60.0
+   60.0,
+   50.0
   ],
   "UK": [
    20.0,
@@ -211,7 +216,8 @@
    10.0,
    10.0,
    10.0,
-   0.0
+   0.0,
+   20.0
   ]
  },
  "trend_tech": {
@@ -226,6 +232,7 @@
    0.0,
    10.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -239,6 +246,7 @@
    40.0,
    30.0,
    40.0,
+   50.0,
    50.0
   ],
   "JP": [
@@ -252,10 +260,12 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0
   ],
   "KR": [
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -278,11 +288,13 @@
    60.0,
    70.0,
    50.0,
-   70.0
+   70.0,
+   20.0
   ]
  },
  "trend_eco": {
   "TW": [
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -306,6 +318,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "JP": [
@@ -319,7 +332,8 @@
    0.0,
    20.0,
    0.0,
-   10.0
+   10.0,
+   20.0
   ],
   "KR": [
    0.0,
@@ -332,7 +346,8 @@
    0.0,
    0.0,
    10.0,
-   0.0
+   0.0,
+   10.0
   ],
   "UK": [
    0.0,
@@ -345,359 +360,360 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ]
  },
- "n_rows": 550,
+ "n_rows": 600,
  "latest_rows": [
   {
    "country": "TW",
    "rank": 1,
-   "title": "蔣萬安臉書駁沈伯洋「社區中心發毒品與針頭」 2小時驚湧逾10萬則留言 - UDN",
-   "source": "UDN",
+   "title": "蔡康永考慮訪問沈伯洋、蔣萬安 學者：期待「真龍天子」御駕親征 - news.ltn.com.tw",
+   "source": "news.ltn.com.tw",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 2,
-   "title": "天氣預報/最強冷空氣來了全台變天！「斷崖式降溫剩16度」大雨狂下4天， 最濕冷時間曝 - Storm.mg",
-   "source": "Storm.mg",
-   "cat": "生活健康"
+   "title": "蔣萬安談美沙冬維持療法 北市衛生局急回應 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 3,
-   "title": "西門町知名BDSM酒吧遭突擊搜索！店長被銬 萬華分局駁斥：絕無羞辱身障 - Yahoo新聞",
+   "title": "北宜花轉涼！大台北3地大雨「下到紅爆」　一周天氣3變化 - 三立新聞網SETN.com",
+   "source": "三立新聞網SETN.com",
+   "cat": "生活健康"
+  },
+  {
+   "country": "TW",
+   "rank": 4,
+   "title": "迪拜航空劫機案：阿聯酋官員稱副駕駛用應急斧頭砍傷機長 - BBC",
+   "source": "BBC",
+   "cat": "其他"
+  },
+  {
+   "country": "TW",
+   "rank": 5,
+   "title": "「四爺」不演了！吳奇隆親證不拍戲 55歲最新動向曝光 - Yahoo新聞",
    "source": "Yahoo新聞",
    "cat": "其他"
   },
   {
    "country": "TW",
-   "rank": 4,
-   "title": "杜拜航空安檢漏洞受矚行凶副機師曾因激進思想遭阿曼禁飛| 國際 - 中央社 CNA",
-   "source": "中央社 CNA",
-   "cat": "其他"
-  },
-  {
-   "country": "TW",
-   "rank": 5,
-   "title": "普丁絕望了？對烏克蘭「孤注一擲」命令曝光- 國際 - 中時新聞網",
-   "source": "中時新聞網",
-   "cat": "國際地緣"
-  },
-  {
-   "country": "TW",
    "rank": 6,
-   "title": "亞運前線》看到台灣隊教練幫對手加油很難過 詹皓晴自爆用眼神跟李洋求助 - 自由體育",
-   "source": "自由體育",
+   "title": "星巴克明天買一送一！10/5週一限定「好友分享日」，大杯飲料免費多一杯 - ELLE",
+   "source": "ELLE",
    "cat": "其他"
   },
   {
    "country": "TW",
    "rank": 7,
-   "title": "柯文哲來了！「雙柯」首度合體 柯志恩喊藍白合：下架新潮流 - UDN",
-   "source": "UDN",
+   "title": "李四川板橋造勢直逼77分貝 自學高中學力鑑定考試受干擾 - Yahoo新聞",
+   "source": "Yahoo新聞",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 8,
-   "title": "沈伯洋網路聲量完勝蔣萬安 曹興誠點出最大原因 - 自由時報",
-   "source": "自由時報",
+   "title": "賴清德長子遭中國盯梢！車牌住家全被拍 華裔女房仲洛杉磯落網 - Yahoo新聞",
+   "source": "Yahoo新聞",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 9,
-   "title": "高市長選戰民調逼近沈富雄點名這人：再努力一下就當選了- 政治 - 中時新聞網",
-   "source": "中時新聞網",
-   "cat": "政治"
+   "title": "同志酒吧遭搜索 台灣同志諮詢熱線：不容北市一手消費、又一手打壓 - news.ltn.com.tw",
+   "source": "news.ltn.com.tw",
+   "cat": "其他"
   },
   {
    "country": "TW",
    "rank": 10,
-   "title": "逾16萬「洋流船員」準備！沈伯洋競總明成立　同台賴清德、蕭美琴拚勝選 - 三立新聞",
-   "source": "三立新聞",
+   "title": "沈伯洋酸「發言人像牆」圍住蔣萬安 蔣回嗆：他應該是說自己吧！ - news.ltn.com.tw",
+   "source": "news.ltn.com.tw",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 1,
-   "title": "Ax-wielding FlyDubai co-pilot had been flagged over extremism concerns - AP News",
+   "title": "Brazil’s presidential race to go to second round as Flávio Bolsonaro leads incumbent Lula - The Guardian",
+   "source": "The Guardian",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 2,
+   "title": "US withdraws B-1 bomber aircraft from UK’s Fairford base amid Iran fears - Al Jazeera",
+   "source": "Al Jazeera",
+   "cat": "科技AI"
+  },
+  {
+   "country": "US",
+   "rank": 3,
+   "title": "Cornell rape accuser faces threats demanding she drop her lawsuit, attorney says - NBC News",
+   "source": "NBC News",
+   "cat": "科技AI"
+  },
+  {
+   "country": "US",
+   "rank": 4,
+   "title": "UAE had shared details about FlyDubai flight with Israel, including pilots' names and nationalities, officials tell AP - AP News",
    "source": "AP News",
    "cat": "科技AI"
   },
   {
    "country": "US",
-   "rank": 2,
-   "title": "Woman told Cornell investigators she 'felt like bait' during alleged gang rape - PBS",
-   "source": "PBS",
-   "cat": "科技AI"
-  },
-  {
-   "country": "US",
-   "rank": 3,
-   "title": "Trump pledges to send $90 checks to millions of seniors on Medicare - NBC News",
-   "source": "NBC News",
+   "rank": 5,
+   "title": "Trump names national intelligence chief Jay Clayton as new AI czar - NPR",
+   "source": "NPR",
    "cat": "政治"
   },
   {
    "country": "US",
-   "rank": 4,
-   "title": "Tennessee Commissioner Resigns After Failed Execution of Christa Pike - The New York Times",
-   "source": "The New York Times",
-   "cat": "科技AI"
-  },
-  {
-   "country": "US",
-   "rank": 5,
-   "title": "‘You’re coming in blind?’ Medical plane flying to Boston from Bermuda goes missing off Nantucket - The Boston Globe",
-   "source": "The Boston Globe",
-   "cat": "社會"
-  },
-  {
-   "country": "US",
    "rank": 6,
-   "title": "EXCLUSIVE: Ukraine will hit Russian refineries in response to Moscow's 'new doctrine' of airstrikes, Zelenskiy says - Reuters",
-   "source": "Reuters",
+   "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates - nytimes.com",
+   "source": "nytimes.com",
    "cat": "科技AI"
   },
   {
    "country": "US",
    "rank": 7,
-   "title": "Trump reveals Tom Cotton’s phone number in daylight saving time standoff - The Washington Post",
-   "source": "The Washington Post",
-   "cat": "政治"
+   "title": "What to Know About the Medical Plane That Went Missing Near Nantucket - nytimes.com",
+   "source": "nytimes.com",
+   "cat": "社會"
   },
   {
    "country": "US",
    "rank": 8,
-   "title": "Democrats May Have Found the Recipe for Flipping Red-State Senate Seats - The New York Times",
-   "source": "The New York Times",
+   "title": "Supreme Court heads into new term with one eye on President Trump - CNN",
+   "source": "CNN",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 9,
-   "title": "Balloons take flight with several minor crashes on day 1 of Balloon Fiesta - KOAT",
-   "source": "KOAT",
-   "cat": "科技AI"
+   "title": "FBI arrests alleged Chinese agent at LAX after she allegedly surveilled son of Taiwanese president - CBS News",
+   "source": "CBS News",
+   "cat": "政治"
   },
   {
    "country": "US",
    "rank": 10,
-   "title": "Fact-checking Trump’s Alabama rally: What the president’s Mobile speech got wrong - AL.com",
-   "source": "AL.com",
-   "cat": "政治"
+   "title": "Christa Pike still in critical condition after botched execution, lawyer says - washingtonpost.com",
+   "source": "washingtonpost.com",
+   "cat": "科技AI"
   },
   {
    "country": "JP",
    "rank": 1,
-   "title": "那覇ホテルの女性強盗殺人、米軍普天間飛行場所属の海兵隊員の男を容疑で緊急逮捕 - 読売新聞",
-   "source": "読売新聞",
+   "title": "米兵逮捕の強盗殺人事件 被害女性の首にコードのようなものか - NHKニュース",
+   "source": "NHKニュース",
    "cat": "社會"
   },
   {
    "country": "JP",
    "rank": 2,
-   "title": "ロシア軍がキーウの交通の要衝「南橋」を連日攻撃、渋滞など混乱広がる…ゼレンスキー氏「攻撃対象増えた」 - 読売新聞",
+   "title": "食品消費税「２年限定で１％」論戦へ、野党は「財源」追及か…臨時国会きょう召集 - 読売新聞",
    "source": "読売新聞",
-   "cat": "國際地緣"
-  },
-  {
-   "country": "JP",
-   "rank": 3,
-   "title": "「サナ活」で熱狂、落胆も 高市総裁選出1年、支持率が命綱 - 毎日新聞",
-   "source": "毎日新聞",
    "cat": "政治"
   },
   {
    "country": "JP",
+   "rank": 3,
+   "title": "台風27号は発達ピーク　小笠原諸島は6日にかけて高波に警戒　関東も波が高くなる(気象予報士 中川　裕美子 2026年10月05日) - tenki.jp",
+   "source": "tenki.jp",
+   "cat": "生活健康"
+  },
+  {
+   "country": "JP",
    "rank": 4,
-   "title": "台風27号 あすからあさって小笠原諸島に接近 高波警戒 - NHKニュース",
-   "source": "NHKニュース",
+   "title": "台風29号発生…「トリプル台風」に 気象庁の予想進路、米軍・ヨーロッパの見方 日本への影響は - 福井新聞社",
+   "source": "福井新聞社",
    "cat": "生活健康"
   },
   {
    "country": "JP",
    "rank": 5,
-   "title": "横浜市長選挙あす告示、７人による混戦か…「ハマのドン」ら前市長バックアップ・「反山中」は一本化図れず - 読売新聞",
-   "source": "読売新聞",
-   "cat": "政治"
-  },
-  {
-   "country": "JP",
-   "rank": 6,
-   "title": "“トランプ選挙区”もまさかの接戦 米中間選挙 想定外の選挙区でも共和党失速 安全圏に巨額資金、トランプ大統領は「歴史」に抗えるのか（FNNプライムオンライン（フジテレビ系）） - Yahoo!ニュース",
-   "source": "Yahoo!ニュース",
-   "cat": "政治"
-  },
-  {
-   "country": "JP",
-   "rank": 7,
-   "title": "きのうの秋晴れから一転 きょう西～東日本は早くも雨や曇り 大型台風27号は非常に強い勢力であす～あさって小笠原諸島に接近のおそれ（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-   "source": "Yahoo!ニュース",
-   "cat": "生活健康"
-  },
-  {
-   "country": "JP",
-   "rank": 8,
-   "title": "淡路島で釣りの9歳男児 海に転落し重体 救助向かった知人不明 - NHKニュース",
-   "source": "NHKニュース",
+   "title": "簗農相「予算大幅カット」発言の背景は？ 衆院栃木3区、保守分裂や確執の経緯を振り返る《無料公開》 - 下野新聞社",
+   "source": "下野新聞社",
    "cat": "其他"
   },
   {
    "country": "JP",
-   "rank": 9,
-   "title": "タワマンの23階から転落、住人の9歳男児死亡 東京・晴海 - 日本経済新聞",
+   "rank": 6,
+   "title": "墜落危機のイスラエル行き旅客機、尾翼損傷後も1時間以上飛行 米報道 - 日本経済新聞",
    "source": "日本経済新聞",
    "cat": "經濟財經"
   },
   {
    "country": "JP",
+   "rank": 7,
+   "title": "5日からノーベル賞 ｢オレキシン｣や有機ELに注目、文学賞関連銘柄も - 日本経済新聞",
+   "source": "日本経済新聞",
+   "cat": "經濟財經"
+  },
+  {
+   "country": "JP",
+   "rank": 8,
+   "title": "飲食店で知人女性を刺した疑い、男を逮捕 近くで女性死亡、関連捜査 - 産経ニュース",
+   "source": "産経ニュース",
+   "cat": "社會"
+  },
+  {
+   "country": "JP",
+   "rank": 9,
+   "title": "横浜市長選挙、立候補者が初日に訴えたことは？ 全７人を一挙紹介 - カナロコ",
+   "source": "カナロコ",
+   "cat": "政治"
+  },
+  {
+   "country": "JP",
    "rank": 10,
-   "title": "米国産ジャガイモ解禁前倒し浮上 トランプ政権の圧力が背景 - 47NEWS",
-   "source": "47NEWS",
-   "cat": "其他"
+   "title": "博多の商業施設で「男性がごみ収集車に」と１１０番、段ボール回収中の男性が頭を挟まれ死亡 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "社會"
   },
   {
    "country": "KR",
    "rank": 1,
-   "title": "\"바른 시각으로\" \"박은정은?\"…달라진 李의 SNS 문법 [청와대는 지금] - 한국경제",
-   "source": "한국경제",
-   "cat": "政治"
+   "title": "[오늘 날씨] 대체공휴일 오전 빗방울, 오후 구름 많음...이번 주 주간예보는? - 헤드라인제주",
+   "source": "헤드라인제주",
+   "cat": "生活健康"
   },
   {
    "country": "KR",
    "rank": 2,
-   "title": "‘코어 지지층’ 의식하는 이 대통령…국민 믿고 ‘중도 실용’ 담대해져야 - 한겨레",
+   "title": "예멘 정부 \"영토 탈환 작전 개시\"…후티 \"사우디 석유시설 공격\" - 연합뉴스TV",
+   "source": "연합뉴스TV",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
+   "rank": 3,
+   "title": "이 대통령 “과격한 주장·근거 없는 선동, 개혁성과 독차지하려는 이기심” - 한겨레",
    "source": "한겨레",
    "cat": "政治"
   },
   {
    "country": "KR",
-   "rank": 3,
-   "title": "[내일날씨] 낮 기온 5도가량 '뚝'…전국 흐리고 중부·전라권 비 - 연합뉴스",
-   "source": "연합뉴스",
-   "cat": "生活健康"
-  },
-  {
-   "country": "KR",
    "rank": 4,
-   "title": "한국 대통령, 우크라이나에 공개 사과 요구…“거부하면 추가 조치” - VOA 한국어 홈페이지",
-   "source": "VOA 한국어 홈페이지",
+   "title": "조희대, 국감 증인 불출석…민주 “그럴거면 사퇴” 국힘 “겁박정치” - 한겨레",
+   "source": "한겨레",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 5,
-   "title": "트럼프 \"중간선거 직후 혹은 이전에 이란전쟁 승리할 것\" - 연합뉴스TV",
-   "source": "연합뉴스TV",
-   "cat": "政治"
+   "title": "제주 차귀도 북서쪽서 29톤급 어선 전복···9명 구조·2명 실종 - 경향신문",
+   "source": "경향신문",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 6,
-   "title": "김상욱 울산시장 첫 경찰 출석…공직선거법 위반 혐의 집중 조사 - 연합뉴스TV",
-   "source": "연합뉴스TV",
-   "cat": "政治"
+   "title": "중수청 시험대 될 ‘1호 수사’…법조계, 중대경제범죄에 무게 - 한겨레",
+   "source": "한겨레",
+   "cat": "經濟財經"
   },
   {
    "country": "KR",
    "rank": 7,
-   "title": "양민혁 집념의 크로스, 엄지성의 마무리…4회 연속 금메달 - KBS 뉴스",
+   "title": "국민의힘 장동혁, 육영수 여사 생가 찾아 기자회견 - KBS 뉴스",
    "source": "KBS 뉴스",
-   "cat": "其他"
+   "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 8,
-   "title": "‘불의·불미·불상·우발’… 도발 때마다 등장하는 北 봐주기 코드 - 조선일보",
-   "source": "조선일보",
-   "cat": "其他"
-  },
-  {
-   "country": "KR",
-   "rank": 9,
-   "title": "국힘, 1년 만에 서울 도심 집회‥\"이재명을 끌어내리자\" - MBC 뉴스",
+   "title": "이 대통령 지지율 37.4%‥민주 42.5%·국민의힘 38.4% [리얼미터] - MBC 뉴스",
    "source": "MBC 뉴스",
    "cat": "政治"
   },
   {
    "country": "KR",
+   "rank": 9,
+   "title": "[쉘터: 서로를 구하다①]“사실대로 말해!” 총 들이대도 “몰라”…아버지의 거짓말이 마을을 살렸다 - 경향신문",
+   "source": "경향신문",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
    "rank": 10,
-   "title": "[로컬의 재발견] 상어 '부캉이' 인기 전국 명소된 부산 북항 친수공원 - 연합뉴스",
-   "source": "연합뉴스",
+   "title": "[현장] “대북 확성기 다시 틀면, 바깥 나오지 말란 소리죠” 접경주민 한숨 - 한겨레",
+   "source": "한겨레",
    "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 1,
-   "title": "Israel flight hijacking latest: FlyDubai co-pilot who used crash axe in ‘terror incident’ studied at UK university - The Independent",
-   "source": "The Independent",
-   "cat": "科技AI"
-  },
-  {
-   "country": "UK",
-   "rank": 2,
-   "title": "Tories would expand free childcare to high earners, Badenoch says - theguardian.com",
-   "source": "theguardian.com",
+   "title": "All B-1 Bombers Returning to U.S. From U.K. Base - WSJ",
+   "source": "WSJ",
    "cat": "其他"
   },
   {
    "country": "UK",
+   "rank": 2,
+   "title": "Britain's Green Party votes to class Zionism as a form of racism - Reuters",
+   "source": "Reuters",
+   "cat": "政治"
+  },
+  {
+   "country": "UK",
    "rank": 3,
-   "title": "Man shot dead in 'senseless act of violence' as people gathered for west London memorial service - Sky News",
-   "source": "Sky News",
-   "cat": "社會"
+   "title": "I'm a classic old school Conservative, says Kemi Badenoch - bbc.co.uk",
+   "source": "bbc.co.uk",
+   "cat": "政治"
   },
   {
    "country": "UK",
    "rank": 4,
-   "title": "Tennessee prison chief to resign after Christa Pike's failed execution - BBC",
-   "source": "BBC",
-   "cat": "科技AI"
+   "title": "Tories to pledge to scrap Environment Agency and Natural England - The Guardian",
+   "source": "The Guardian",
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 5,
-   "title": "Tens of thousands protest against Spain's housing crisis following eviction of 87-year-old woman - Sky News",
-   "source": "Sky News",
+   "title": "Christa Pike's prognosis still unclear after failed execution, lawyer says - bbc.co.uk",
+   "source": "bbc.co.uk",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 6,
-   "title": "UK-Iran national arrested over alleged bomb plot at RAF Fairford released on bail - theguardian.com",
-   "source": "theguardian.com",
-   "cat": "科技AI"
+   "title": "Has plague returned to Siberia? Panic in Russia after death of lab worker - Euronews",
+   "source": "Euronews",
+   "cat": "社會"
   },
   {
    "country": "UK",
    "rank": 7,
-   "title": "Two Iranians charged over alleged plot targeting Jewish community in UK - Al Jazeera",
-   "source": "Al Jazeera",
-   "cat": "科技AI"
+   "title": "Protesters gather as migrants brought ashore on south coast - bbc.co.uk",
+   "source": "bbc.co.uk",
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 8,
-   "title": "Widdecombe murder suspect charged with preparing terrorism against Farage | ITV News - ITVX",
-   "source": "ITVX",
+   "title": "Decades old debris likely caused fatal Spitfire crash that killed Royal Air Force pilot - The Independent",
+   "source": "The Independent",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 9,
-   "title": "DWP state pension payments to be £6,542 lower after Andy Burnham triple lock axe - birminghammail.co.uk",
-   "source": "birminghammail.co.uk",
-   "cat": "科技AI"
+   "title": "Man arrested after woman in her 40s found dead in Norfolk - Sky News",
+   "source": "Sky News",
+   "cat": "社會"
   },
   {
    "country": "UK",
    "rank": 10,
-   "title": "Portadown: Rallies take place on Garvaghy Road and Edgarstown over Drumcree dispute - BBC",
-   "source": "BBC",
+   "title": "'Petrified' Deliveroo rapist who attacked semi-conscious woman refuses to leave his cell over fears of reprisals - The Sun",
+   "source": "The Sun",
    "cat": "其他"
   }
  ],
@@ -1032,6 +1048,35 @@
    "科技AI": 7,
    "其他": 2,
    "社會": 1
+  },
+  "2026-10-05|TW": {
+   "政治": 5,
+   "生活健康": 1,
+   "其他": 4
+  },
+  "2026-10-05|US": {
+   "政治": 4,
+   "科技AI": 5,
+   "社會": 1
+  },
+  "2026-10-05|JP": {
+   "社會": 3,
+   "政治": 2,
+   "生活健康": 2,
+   "其他": 1,
+   "經濟財經": 2
+  },
+  "2026-10-05|KR": {
+   "生活健康": 1,
+   "政治": 5,
+   "其他": 3,
+   "經濟財經": 1
+  },
+  "2026-10-05|UK": {
+   "其他": 4,
+   "政治": 2,
+   "科技AI": 2,
+   "社會": 2
   }
  }
 }
