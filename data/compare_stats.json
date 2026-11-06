@@ -40,9 +40,10 @@
   "2026-11-02",
   "2026-11-03",
   "2026-11-04",
-  "2026-11-05"
+  "2026-11-05",
+  "2026-11-06"
  ],
- "latest": "2026-11-05",
+ "latest": "2026-11-06",
  "countries": [
   "TW",
   "US",
@@ -70,112 +71,112 @@
  ],
  "share_all": {
   "TW": {
-   "政治": 48.5,
-   "科技AI": 1.5,
+   "政治": 49.3,
+   "科技AI": 1.4,
    "經濟財經": 0.7,
-   "國際地緣": 6.1,
-   "社會": 4.9,
-   "生活健康": 9.5,
+   "國際地緣": 6.0,
+   "社會": 4.8,
+   "生活健康": 9.3,
    "娛樂": 0.0,
    "體育": 0.5,
-   "其他": 28.3
+   "其他": 28.1
   },
   "US": {
-   "政治": 48.8,
-   "科技AI": 25.9,
+   "政治": 49.5,
+   "科技AI": 25.5,
    "經濟財經": 0.5,
    "國際地緣": 2.4,
    "社會": 9.8,
-   "生活健康": 2.0,
+   "生活健康": 1.9,
    "娛樂": 0.2,
    "體育": 0.5,
-   "其他": 10.0
+   "其他": 9.8
   },
   "JP": {
-   "政治": 19.0,
+   "政治": 19.3,
    "科技AI": 0.5,
-   "經濟財經": 4.9,
-   "國際地緣": 8.8,
-   "社會": 17.1,
-   "生活健康": 19.8,
+   "經濟財經": 5.0,
+   "國際地緣": 8.6,
+   "社會": 16.7,
+   "生活健康": 19.3,
    "娛樂": 0.0,
    "體育": 0.2,
-   "其他": 29.8
+   "其他": 30.5
   },
   "KR": {
-   "政治": 33.9,
+   "政治": 34.3,
    "科技AI": 0.5,
-   "經濟財經": 4.9,
-   "國際地緣": 5.9,
-   "社會": 7.6,
-   "生活健康": 3.4,
+   "經濟財經": 4.8,
+   "國際地緣": 6.0,
+   "社會": 7.4,
+   "生活健康": 3.6,
    "娛樂": 0.2,
    "體育": 0.5,
-   "其他": 43.2
+   "其他": 42.9
   },
   "UK": {
-   "政治": 16.1,
-   "科技AI": 41.7,
-   "經濟財經": 1.5,
-   "國際地緣": 3.2,
-   "社會": 13.9,
+   "政治": 16.0,
+   "科技AI": 41.2,
+   "經濟財經": 1.4,
+   "國際地緣": 3.1,
+   "社會": 14.5,
    "生活健康": 1.2,
    "娛樂": 0.7,
    "體育": 0.0,
-   "其他": 21.7
+   "其他": 21.9
   }
  },
  "deviation": {
   "US": {
-   "政治": 0.3,
-   "科技AI": 24.4,
+   "政治": 0.2,
+   "科技AI": 24.1,
    "經濟財經": -0.2,
-   "國際地緣": -3.7,
-   "社會": 4.9,
-   "生活健康": -7.5,
+   "國際地緣": -3.6,
+   "社會": 5.0,
+   "生活健康": -7.4,
    "娛樂": 0.2,
    "體育": 0.0,
    "其他": -18.3
   },
   "JP": {
-   "政治": -29.5,
-   "科技AI": -1.0,
-   "經濟財經": 4.2,
-   "國際地緣": 2.7,
-   "社會": 12.2,
-   "生活健康": 10.3,
+   "政治": -30.0,
+   "科技AI": -0.9,
+   "經濟財經": 4.3,
+   "國際地緣": 2.6,
+   "社會": 11.9,
+   "生活健康": 10.0,
    "娛樂": 0.0,
    "體育": -0.3,
-   "其他": 1.5
+   "其他": 2.4
   },
   "KR": {
-   "政治": -14.6,
-   "科技AI": -1.0,
-   "經濟財經": 4.2,
-   "國際地緣": -0.2,
-   "社會": 2.7,
-   "生活健康": -6.1,
+   "政治": -15.0,
+   "科技AI": -0.9,
+   "經濟財經": 4.1,
+   "國際地緣": 0.0,
+   "社會": 2.6,
+   "生活健康": -5.7,
    "娛樂": 0.2,
    "體育": 0.0,
-   "其他": 14.9
+   "其他": 14.8
   },
   "UK": {
-   "政治": -32.4,
-   "科技AI": 40.2,
-   "經濟財經": 0.8,
+   "政治": -33.3,
+   "科技AI": 39.8,
+   "經濟財經": 0.7,
    "國際地緣": -2.9,
-   "社會": 9.0,
-   "生活健康": -8.3,
+   "社會": 9.7,
+   "生活健康": -8.1,
    "娛樂": 0.7,
    "體育": -0.5,
-   "其他": -6.6
+   "其他": -6.2
   }
  },
  "tvd": {
-  "US": 29.8,
-  "JP": 30.9,
-  "KR": 21.9,
-  "UK": 50.7
+  "US": 29.5,
+  "JP": 31.2,
+  "KR": 21.6,
+  "UK": 50.9
  },
  "trend_pol": {
   "TW": [
@@ -219,7 +220,8 @@
    60.0,
    70.0,
    40.0,
-   60.0
+   60.0,
+   80.0
   ],
   "US": [
    40.0,
@@ -262,7 +264,8 @@
    40.0,
    60.0,
    70.0,
-   90.0
+   90.0,
+   80.0
   ],
   "JP": [
    10.0,
@@ -305,7 +308,8 @@
    40.0,
    20.0,
    40.0,
-   20.0
+   20.0,
+   30.0
   ],
   "KR": [
    40.0,
@@ -348,7 +352,8 @@
    50.0,
    40.0,
    60.0,
-   60.0
+   60.0,
+   50.0
   ],
   "UK": [
    20.0,
@@ -391,7 +396,8 @@
    10.0,
    40.0,
    20.0,
-   20.0
+   20.0,
+   10.0
   ]
  },
  "trend_tech": {
@@ -436,6 +442,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -479,6 +486,7 @@
    30.0,
    10.0,
    20.0,
+   10.0,
    10.0
   ],
   "JP": [
@@ -492,6 +500,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -565,6 +574,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "UK": [
@@ -608,7 +618,8 @@
    30.0,
    20.0,
    40.0,
-   50.0
+   50.0,
+   20.0
   ]
  },
  "trend_eco": {
@@ -653,6 +664,7 @@
    10.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -695,6 +707,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0
   ],
@@ -739,7 +752,8 @@
    0.0,
    10.0,
    10.0,
-   0.0
+   0.0,
+   10.0
   ],
   "KR": [
    0.0,
@@ -778,6 +792,7 @@
    20.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -825,360 +840,361 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0
   ]
  },
- "n_rows": 2050,
+ "n_rows": 2100,
  "latest_rows": [
   {
    "country": "TW",
    "rank": 1,
-   "title": "美國期中選舉變天 產業市場／AI 資料中心面臨「藍色海嘯」 民主黨拿下四大重鎮州長 主張嚴格監管 - 經濟日報",
-   "source": "經濟日報",
+   "title": "美國期中選舉掀起民主黨「藍色海嘯」 華爾街投資六大轉向揭密 - UDN",
+   "source": "UDN",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 2,
-   "title": "美國中期選舉結果對中國和世界各國意味着什麼？ - BBC",
-   "source": "BBC",
+   "title": "藍心湄破例追蹤沈伯洋！表態喊「歡迎常來」　沈伯洋深夜暖發聲了 - 三立新聞網SETN.com",
+   "source": "三立新聞網SETN.com",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 3,
-   "title": "下午東北季風增強 5縣市溼答答 周六「立冬」北東轉涼 - UDN",
+   "title": "入秋最強冷空氣要來了 粉專：下周低溫叩關1字頭 中南部也會有感降溫 - UDN",
    "source": "UDN",
-   "cat": "生活健康"
+   "cat": "其他"
   },
   {
    "country": "TW",
    "rank": 4,
-   "title": "沈伯洋專訪流量超車蔣萬安！律師吐大實話：台北人要有動腦市長 - NOWnews今日新聞",
-   "source": "NOWnews今日新聞",
+   "title": "沈伯洋拔樁藍營大老陳健治？蔣萬安稱尊重 競總急喊：已邀老議長來訪 - Yahoo新聞",
+   "source": "Yahoo新聞",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 5,
-   "title": "酒駕撞死屏東女大生「詹維凱」正臉照曝光！25歲淪累犯已3度被逮 獲10萬交保檢提抗告 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "cat": "其他"
-  },
-  {
-   "country": "TW",
-   "rank": 6,
-   "title": "「國寶級神獸」出沒！ 台中大雪山小神木步道暫時封閉 - 自由時報",
+   "title": "張俊傑偷渡畫面曝光！下車到上船僅9分鐘 - 自由時報",
    "source": "自由時報",
    "cat": "其他"
   },
   {
    "country": "TW",
-   "rank": 7,
-   "title": "北市營養午餐每人發2g香鬆惹議 教育局、校方曝原因 - UDN",
+   "rank": 6,
+   "title": "共和黨期中選舉慘敗魯比歐想跳船？本人急駁斥：陪川普做到任期結束 - UDN",
    "source": "UDN",
-   "cat": "其他"
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 7,
+   "title": "政院指老人免健保3問題...民眾黨團轟：斥千億補中油台電 不願照顧長者 - UDN",
+   "source": "UDN",
+   "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 8,
-   "title": "找侯友宜加持掃街！蔣萬安一開口就出包「地名、市場名都講錯了」 - 三立新聞網SETN.com",
-   "source": "三立新聞網SETN.com",
+   "title": "堆疊善意…藍白合升溫 蔣萬安盼同台柯文哲 - UDN",
+   "source": "UDN",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 9,
-   "title": "柯志恩受訪突爆一句真心話 遭疑「偷臭蔣萬安」 - Yahoo新聞",
-   "source": "Yahoo新聞",
+   "title": "高雄市長候選人造勢「台下僅坐8人」心酸畫面流出！ - 三立新聞網SETN.com",
+   "source": "三立新聞網SETN.com",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 10,
-   "title": "「我絕對沒有要模仿沈伯洋」！蔣萬安推《萬安警報》：躲起來避免被轟炸 - 三立新聞網SETN.com",
-   "source": "三立新聞網SETN.com",
+   "title": "（影）沈伯洋煮咖哩 「甩領帶」意外成焦點 網友直呼超帥 - 自由娛樂",
+   "source": "自由娛樂",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 1,
-   "title": "Vance says voters want to ‘end the war,’ change Israel relationship - The Washington Post",
-   "source": "The Washington Post",
+   "title": "Democrats have ousted at least 30 Republican incumbents, from swing districts to GOP strongholds - CNN",
+   "source": "CNN",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 2,
-   "title": "Democratic leaders reflect on midterm results and what's next for the party - NPR",
-   "source": "NPR",
+   "title": "How the Texas blue wave came crashing down on Republicans - The Washington Post",
+   "source": "The Washington Post",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 3,
-   "title": "Pete Hegseth may take fall for Republicans’ midterm losses, despite Trump support - The Guardian",
+   "title": "Nithya Raman ousts incumbent Karen Bass in Los Angeles mayor's race, CBS News projects - CBS News",
+   "source": "CBS News",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 4,
+   "title": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office - The Guardian",
    "source": "The Guardian",
    "cat": "政治"
   },
   {
    "country": "US",
-   "rank": 4,
-   "title": "Mississippi Senate race heads to an extended vote count and possible ballot battle - NBC News",
-   "source": "NBC News",
-   "cat": "政治"
-  },
-  {
-   "country": "US",
    "rank": 5,
-   "title": "Conservative US Supreme Court justices Thomas and Alito in spotlight after Democratic landslide - Reuters",
-   "source": "Reuters",
+   "title": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith - CNBC",
+   "source": "CNBC",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 6,
-   "title": "The winners making history in the 2026 midterm elections - Axios",
-   "source": "Axios",
+   "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - BBC",
+   "source": "BBC",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 7,
-   "title": "Appeals Court Allows Mamdani to Move Forward with Pied-à-Terre Tax - The New York Times",
-   "source": "The New York Times",
-   "cat": "科技AI"
+   "title": "California Gov. Gavin Newsom plans to commute all death sentences - NBC News",
+   "source": "NBC News",
+   "cat": "社會"
   },
   {
    "country": "US",
    "rank": 8,
-   "title": "How Abdul El-Sayed, Jocelyn Benson won Michigan: Big turnout, Democratic shifts - Bridge Michigan",
-   "source": "Bridge Michigan",
+   "title": "How Abdul El-Sayed actually did with Jewish voters - Politico",
+   "source": "Politico",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 9,
-   "title": "Map: How did neighborhoods across Dallas County vote in the Texas Senate race? - Dallas News",
-   "source": "Dallas News",
+   "title": "Iran war the 'real reason' GOP lost midterms, Vance says, as Trump defends decision - Fox News",
+   "source": "Fox News",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 10,
-   "title": "Trump concedes Iran war angered voters, triggered Democratic landslide - The Washington Post",
-   "source": "The Washington Post",
-   "cat": "政治"
+   "title": "‘Hero’ security guard shoots gunman, stopping Tampa Citibank plaza attack: HCSO - WFLA",
+   "source": "WFLA",
+   "cat": "科技AI"
   },
   {
    "country": "JP",
    "rank": 1,
-   "title": "共和党大敗にバンス副大統領「敗北の理由は戦争だ」…イラン攻撃決断のトランプ氏との対立招く可能性も - 読売新聞",
-   "source": "読売新聞",
-   "cat": "國際地緣"
+   "title": "ルビオ米国務長官が辞任検討か ブルームバーグ報道 - 日本経済新聞",
+   "source": "日本経済新聞",
+   "cat": "經濟財經"
   },
   {
    "country": "JP",
    "rank": 2,
-   "title": "関東は雨のピーク越えるも土砂災害に警戒 西日本は午後に雨が降り出す - ウェザーニュース",
-   "source": "ウェザーニュース",
+   "title": "バンス氏、外国での戦争反対の「米国第一」に立ち返り支持者の再結集図る…ＳＮＳ投稿で異例の主張展開 - 読売新聞",
+   "source": "読売新聞",
    "cat": "其他"
   },
   {
    "country": "JP",
    "rank": 3,
-   "title": "消費税減税あすにも衆院通過へ、自民が採決を提案…食料品の税率「２年間１％」に引き下げなど柱 - 読売新聞",
-   "source": "読売新聞",
-   "cat": "生活健康"
-  },
-  {
-   "country": "JP",
-   "rank": 4,
-   "title": "暮らしの中の毛筆文化に光 書道、ユネスコ無形文化遺産登録へ - 毎日新聞",
+   "title": "大阪駅前の突起物 「排除アート」否定も、内部文書にあった目的 - 毎日新聞",
    "source": "毎日新聞",
    "cat": "其他"
   },
   {
    "country": "JP",
-   "rank": 5,
-   "title": "イスラエル総選挙の結果確定、組閣へ協議開始 野党が交渉主導か - 時事ドットコム",
-   "source": "時事ドットコム",
-   "cat": "政治"
-  },
-  {
-   "country": "JP",
-   "rank": 6,
-   "title": "米国による制裁で資金繰り悪化のＩＣＣへ、日本からの分担金前倒し拠出で政府調整 - 読売新聞",
-   "source": "読売新聞",
+   "rank": 4,
+   "title": "米民主党、下院で250議席超を獲得へ 上院はアラスカなど2州で大接戦 - CNN",
+   "source": "CNN",
    "cat": "其他"
   },
   {
    "country": "JP",
-   "rank": 7,
-   "title": "麻生太郎氏の大誤算…「福岡市長選」がカオス状態に なぜ「高島宗一郎」市長は“後継指名”をしなかったのか（デイリー新潮） - Yahoo!ニュース",
-   "source": "Yahoo!ニュース",
+   "rank": 5,
+   "title": "週間天気予報 週明けは東北の平地でも雪の可能性 関東も気温急降下 - ウェザーニュース",
+   "source": "ウェザーニュース",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 6,
+   "title": "南米パラグアイのサンティアゴ・ペニャ大統領が辞任表明…国内大手デジタル銀行の破綻で野党が辞任要求 - 読売新聞",
+   "source": "読売新聞",
    "cat": "政治"
   },
   {
    "country": "JP",
+   "rank": 7,
+   "title": "最多期122頭のラッコは1頭のみに…鳥羽水族館の『キラ』天国へ - テレ朝NEWS",
+   "source": "テレ朝NEWS",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
    "rank": 8,
-   "title": "拳銃奪い自ら撃つ 休暇中の警察官、意識不明―埼玉県警：時事ドットコム - 時事ドットコム",
-   "source": "時事ドットコム",
-   "cat": "社會"
+   "title": "衆院選挙制度改革で3党が実務者協議 「比例復活」厳格化で参政に打撃 2月衆院選で試算 - 産経ニュース",
+   "source": "産経ニュース",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 9,
-   "title": "スペイン列車事故、死亡した日本人２人は２０代の男女…日本政府関係者 - 読売新聞",
+   "title": "横浜市の原沢敦美市長、脱水症状と疲労で公務キャンセル…市議会答弁中に呼吸荒くなり一般質問は打ち切りに - 読売新聞",
    "source": "読売新聞",
-   "cat": "社會"
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 10,
-   "title": "台風31号 明日5日に小笠原諸島へ接近 関東は警報級大雨のおそれ 朝の通勤に影響(気象予報士 石榑 亜紀子) - tenki.jp",
-   "source": "tenki.jp",
-   "cat": "生活健康"
+   "title": "政府、年内改定「国家安全保障戦略」に「人材力」加え６本柱に拡大へ…ＡＩなど先端分野の人材育成進める - 読売新聞",
+   "source": "読売新聞",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 1,
-   "title": "‘예산·전쟁 권한’ 쥔 민주당 의회…트럼프 ‘마이웨이 외교’ 제동 건다 - 한겨레",
-   "source": "한겨레",
+   "title": "이 대통령 “대통령이 SNS 왜 하냐는데…SNS에도 사람이 산다” [지금뉴스] - KBS 뉴스",
+   "source": "KBS 뉴스",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 2,
-   "title": "밴스 미 부통령 “이란 전쟁이 선거 패배 원인”…트럼프와 거리두기 - 한겨레",
+   "title": "트럼프 중간선거 참패에 이란전 ‘진퇴양난’…공습도 협상도 어렵다 - 한겨레",
    "source": "한겨레",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 3,
-   "title": "김민석 ‘신천지 사과’에도, 친청 “정당법 위반 조사” 내분 격화 - 동아일보",
-   "source": "동아일보",
-   "cat": "其他"
+   "title": "큰 비극 ’쓰나미’ 이런 데 사용?…미 선거 결과 표현에 ’일본 불편’ - 연합뉴스TV",
+   "source": "연합뉴스TV",
+   "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 4,
-   "title": "尹 ‘선거법 위반’ 2심도 당선 무효형 - 조선일보",
+   "title": "‘내란 우두머리’ 尹 전 대통령 내년 1월 26일 항소심 선고 - 조선일보",
    "source": "조선일보",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 5,
-   "title": "[속보]정부, 청해부대 작전범위 호르무즈 인근 확대···해상초계기 1대·기뢰제거 전력 파견 - 경향신문",
-   "source": "경향신문",
-   "cat": "政治"
+   "title": "美 ‘호르무즈 기여’ 요구에 호응… 이란엔 ‘위협 아니다’ 설명 방침 - 동아일보",
+   "source": "동아일보",
+   "cat": "國際地緣"
   },
   {
    "country": "KR",
    "rank": 6,
-   "title": "[속보]경찰, 세브란스병원 ‘흉기 난동’ 피의자에 살인미수 적용…오늘 구속영장 신청 예정 - 경향신문",
-   "source": "경향신문",
-   "cat": "社會"
-  },
-  {
-   "country": "KR",
-   "rank": 7,
-   "title": "정점식 “’조작기소 특검법’은 의회 쿠데타…국회 저지 막히면 거리로“ - 연합뉴스TV",
-   "source": "연합뉴스TV",
-   "cat": "政治"
-  },
-  {
-   "country": "KR",
-   "rank": 8,
-   "title": "이 대통령 \"수도권 주택가격 안정 핵심 과제…도심 정비사업 속도\" - 대한민국 정책브리핑",
-   "source": "대한민국 정책브리핑",
-   "cat": "政治"
-  },
-  {
-   "country": "KR",
-   "rank": 9,
-   "title": "[르포] 스카프 아저씨에 외국인까지… 남대문 상가 임대료는 올랐다 - Chosunbiz",
-   "source": "Chosunbiz",
+   "title": "김민석 ‘신천치 의혹’ 첫 공개사과···“상처 입은 모든 분께 죄송” - 주간경향",
+   "source": "주간경향",
    "cat": "其他"
   },
   {
    "country": "KR",
+   "rank": 7,
+   "title": "'조작기소 특검법' 오늘 필리버스터 강제 종결 뒤 통과 전망 - MBC 뉴스",
+   "source": "MBC 뉴스",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 8,
+   "title": "맑은 하늘 강한 바람 ‘초겨울 날씨’…토요일은 입동, 영하권 추위 - 한겨레",
+   "source": "한겨레",
+   "cat": "生活健康"
+  },
+  {
+   "country": "KR",
+   "rank": 9,
+   "title": "이재명 대통령 장남, 주진우 국민의힘 의원 명예훼손으로 고소···“특혜 골프는 사실 아냐, 의혹 제기 선 넘은 것” - 경향신문",
+   "source": "경향신문",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
    "rank": 10,
-   "title": "’한지’ 인류무형유산 ’등재 권고’…북한 ’태권도’ 단독 등재 눈앞 - 연합뉴스TV",
+   "title": "이번 주말도 서울 곳곳 마라톤·집회…주말마다 교통통제에 시민 불만 - 연합뉴스TV",
    "source": "연합뉴스TV",
-   "cat": "國際地緣"
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 1,
-   "title": "Anthony Zurcher: Midterm carnage weakens Trump but he still wields power for now - BBC",
+   "title": "Henry Nowak's killer has sentence increased to 25 years - BBC",
    "source": "BBC",
-   "cat": "政治"
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 2,
-   "title": "Bosses risk jail if staff use wrong pronouns under trans law - The Telegraph",
-   "source": "The Telegraph",
-   "cat": "科技AI"
+   "title": "Gavin Newsom commutes more than 500 death sentences in California - The Guardian",
+   "source": "The Guardian",
+   "cat": "社會"
   },
   {
    "country": "UK",
    "rank": 3,
-   "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states - The Guardian",
-   "source": "The Guardian",
-   "cat": "政治"
+   "title": "Firms told to publish salaries in job adverts ahead of new law - BBC",
+   "source": "BBC",
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 4,
-   "title": "UK and Caribbean to begin ‘dialogue’ within next year after slavery reparations call - The Guardian",
-   "source": "The Guardian",
+   "title": "European Airlines Face Second Wave of Aircraft Bomb Threats - Bloomberg.com",
+   "source": "Bloomberg.com",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 5,
-   "title": "Man hid woman's body in freezer for three years, jury told - BBC",
+   "title": "Murder accused claimed woman found in freezer was alive - BBC",
    "source": "BBC",
-   "cat": "其他"
+   "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 6,
-   "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing - BBC",
-   "source": "BBC",
-   "cat": "科技AI"
+   "title": "Democrats look to reshape America after historic midterm victories - Financial Times",
+   "source": "Financial Times",
+   "cat": "政治"
   },
   {
    "country": "UK",
    "rank": 7,
-   "title": "Family pay tribute to 'gentle' woman as man charged with murder - BBC",
-   "source": "BBC",
-   "cat": "科技AI"
+   "title": "Flashbulbs, lies and victim blaming: how Russell Brand’s trial unfolded - The Guardian",
+   "source": "The Guardian",
+   "cat": "社會"
   },
   {
    "country": "UK",
    "rank": 8,
-   "title": "Three re-arrested over Moss Side stab death of Adrian Brown - BBC",
+   "title": "Police car set alight in Glasgow amid Bonfire Night trouble - BBC",
    "source": "BBC",
    "cat": "社會"
   },
   {
    "country": "UK",
    "rank": 9,
-   "title": "British citizen tests positive for Ebola in DR Congo and will be treated in UK - Sky News",
-   "source": "Sky News",
-   "cat": "科技AI"
+   "title": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions - Financial Times",
+   "source": "Financial Times",
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 10,
-   "title": "Killer guilty after victim's cry heard on 999 call - BBC",
-   "source": "BBC",
-   "cat": "其他"
+   "title": "Man leaps from flat window to survive Bonfire Night blaze - Metro.co.uk",
+   "source": "Metro.co.uk",
+   "cat": "社會"
   }
  ],
  "daily_counts": {
@@ -2431,6 +2447,32 @@
    "科技AI": 5,
    "其他": 2,
    "社會": 1
+  },
+  "2026-11-06|TW": {
+   "政治": 8,
+   "其他": 2
+  },
+  "2026-11-06|US": {
+   "政治": 8,
+   "社會": 1,
+   "科技AI": 1
+  },
+  "2026-11-06|JP": {
+   "經濟財經": 1,
+   "其他": 6,
+   "政治": 3
+  },
+  "2026-11-06|KR": {
+   "政治": 5,
+   "國際地緣": 1,
+   "其他": 3,
+   "生活健康": 1
+  },
+  "2026-11-06|UK": {
+   "其他": 3,
+   "社會": 4,
+   "科技AI": 2,
+   "政治": 1
   }
  }
 }
