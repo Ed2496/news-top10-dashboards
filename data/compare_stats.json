@@ -41,9 +41,10 @@
   "2026-11-03",
   "2026-11-04",
   "2026-11-05",
-  "2026-11-06"
+  "2026-11-06",
+  "2026-11-07"
  ],
- "latest": "2026-11-06",
+ "latest": "2026-11-07",
  "countries": [
   "TW",
   "US",
@@ -71,56 +72,56 @@
  ],
  "share_all": {
   "TW": {
-   "政治": 49.3,
+   "政治": 49.5,
    "科技AI": 1.4,
    "經濟財經": 0.7,
-   "國際地緣": 6.0,
-   "社會": 4.8,
+   "國際地緣": 5.8,
+   "社會": 4.7,
    "生活健康": 9.3,
    "娛樂": 0.0,
    "體育": 0.5,
    "其他": 28.1
   },
   "US": {
-   "政治": 49.5,
-   "科技AI": 25.5,
+   "政治": 50.2,
+   "科技AI": 25.3,
    "經濟財經": 0.5,
-   "國際地緣": 2.4,
-   "社會": 9.8,
+   "國際地緣": 2.3,
+   "社會": 9.5,
    "生活健康": 1.9,
    "娛樂": 0.2,
    "體育": 0.5,
-   "其他": 9.8
+   "其他": 9.5
   },
   "JP": {
-   "政治": 19.3,
+   "政治": 19.5,
    "科技AI": 0.5,
-   "經濟財經": 5.0,
-   "國際地緣": 8.6,
-   "社會": 16.7,
-   "生活健康": 19.3,
+   "經濟財經": 4.9,
+   "國際地緣": 8.4,
+   "社會": 16.5,
+   "生活健康": 19.1,
    "娛樂": 0.0,
    "體育": 0.2,
-   "其他": 30.5
+   "其他": 30.9
   },
   "KR": {
-   "政治": 34.3,
+   "政治": 34.0,
    "科技AI": 0.5,
-   "經濟財經": 4.8,
+   "經濟財經": 4.9,
    "國際地緣": 6.0,
    "社會": 7.4,
-   "生活健康": 3.6,
+   "生活健康": 3.5,
    "娛樂": 0.2,
    "體育": 0.5,
-   "其他": 42.9
+   "其他": 43.0
   },
   "UK": {
-   "政治": 16.0,
-   "科技AI": 41.2,
+   "政治": 15.8,
+   "科技AI": 40.9,
    "經濟財經": 1.4,
-   "國際地緣": 3.1,
-   "社會": 14.5,
-   "生活健康": 1.2,
+   "國際地緣": 3.3,
+   "社會": 14.7,
+   "生活健康": 1.4,
    "娛樂": 0.7,
    "體育": 0.0,
    "其他": 21.9
@@ -128,54 +129,54 @@
  },
  "deviation": {
   "US": {
-   "政治": 0.2,
-   "科技AI": 24.1,
+   "政治": 0.7,
+   "科技AI": 23.9,
    "經濟財經": -0.2,
-   "國際地緣": -3.6,
-   "社會": 5.0,
+   "國際地緣": -3.5,
+   "社會": 4.8,
    "生活健康": -7.4,
    "娛樂": 0.2,
    "體育": 0.0,
-   "其他": -18.3
+   "其他": -18.6
   },
   "JP": {
    "政治": -30.0,
    "科技AI": -0.9,
-   "經濟財經": 4.3,
+   "經濟財經": 4.2,
    "國際地緣": 2.6,
-   "社會": 11.9,
-   "生活健康": 10.0,
+   "社會": 11.8,
+   "生活健康": 9.8,
    "娛樂": 0.0,
    "體育": -0.3,
-   "其他": 2.4
+   "其他": 2.8
   },
   "KR": {
-   "政治": -15.0,
+   "政治": -15.5,
    "科技AI": -0.9,
-   "經濟財經": 4.1,
-   "國際地緣": 0.0,
-   "社會": 2.6,
-   "生活健康": -5.7,
+   "經濟財經": 4.2,
+   "國際地緣": 0.2,
+   "社會": 2.7,
+   "生活健康": -5.8,
    "娛樂": 0.2,
    "體育": 0.0,
-   "其他": 14.8
+   "其他": 14.9
   },
   "UK": {
-   "政治": -33.3,
-   "科技AI": 39.8,
+   "政治": -33.7,
+   "科技AI": 39.5,
    "經濟財經": 0.7,
-   "國際地緣": -2.9,
-   "社會": 9.7,
-   "生活健康": -8.1,
+   "國際地緣": -2.5,
+   "社會": 10.0,
+   "生活健康": -7.9,
    "娛樂": 0.7,
    "體育": -0.5,
    "其他": -6.2
   }
  },
  "tvd": {
-  "US": 29.5,
+  "US": 29.6,
   "JP": 31.2,
-  "KR": 21.6,
+  "KR": 22.2,
   "UK": 50.9
  },
  "trend_pol": {
@@ -221,7 +222,8 @@
    70.0,
    40.0,
    60.0,
-   80.0
+   80.0,
+   60.0
   ],
   "US": [
    40.0,
@@ -265,6 +267,7 @@
    60.0,
    70.0,
    90.0,
+   80.0,
    80.0
   ],
   "JP": [
@@ -309,6 +312,7 @@
    20.0,
    40.0,
    20.0,
+   30.0,
    30.0
   ],
   "KR": [
@@ -353,7 +357,8 @@
    40.0,
    60.0,
    60.0,
-   50.0
+   50.0,
+   20.0
   ],
   "UK": [
    20.0,
@@ -397,6 +402,7 @@
    40.0,
    20.0,
    20.0,
+   10.0,
    10.0
   ]
  },
@@ -443,6 +449,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -487,7 +494,8 @@
    10.0,
    20.0,
    10.0,
-   10.0
+   10.0,
+   20.0
   ],
   "JP": [
    10.0,
@@ -500,6 +508,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -575,6 +584,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "UK": [
@@ -619,7 +629,8 @@
    20.0,
    40.0,
    50.0,
-   20.0
+   20.0,
+   30.0
   ]
  },
  "trend_eco": {
@@ -665,6 +676,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -707,6 +719,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0
@@ -753,7 +766,8 @@
    10.0,
    10.0,
    0.0,
-   10.0
+   10.0,
+   0.0
   ],
   "KR": [
    0.0,
@@ -797,7 +811,8 @@
    0.0,
    0.0,
    0.0,
-   0.0
+   0.0,
+   10.0
   ],
   "UK": [
    0.0,
@@ -841,360 +856,361 @@
    0.0,
    10.0,
    0.0,
+   0.0,
    0.0
   ]
  },
- "n_rows": 2100,
+ "n_rows": 2150,
  "latest_rows": [
   {
    "country": "TW",
    "rank": 1,
-   "title": "美國期中選舉掀起民主黨「藍色海嘯」 華爾街投資六大轉向揭密 - UDN",
-   "source": "UDN",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 2,
-   "title": "藍心湄破例追蹤沈伯洋！表態喊「歡迎常來」　沈伯洋深夜暖發聲了 - 三立新聞網SETN.com",
-   "source": "三立新聞網SETN.com",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 3,
-   "title": "入秋最強冷空氣要來了 粉專：下周低溫叩關1字頭 中南部也會有感降溫 - UDN",
-   "source": "UDN",
-   "cat": "其他"
-  },
-  {
-   "country": "TW",
-   "rank": 4,
-   "title": "沈伯洋拔樁藍營大老陳健治？蔣萬安稱尊重 競總急喊：已邀老議長來訪 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 5,
-   "title": "張俊傑偷渡畫面曝光！下車到上船僅9分鐘 - 自由時報",
+   "title": "幫邱臣遠站台恐遭黨紀處分 趙少康嗆：開除就開除 我才不在乎 - 自由時報",
    "source": "自由時報",
    "cat": "其他"
   },
   {
    "country": "TW",
+   "rank": 2,
+   "title": "高金素梅遭控涉共諜案 高檢署依國安法等起訴求刑14年 - 中央社 CNA",
+   "source": "中央社 CNA",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 3,
+   "title": "貿易休戰恐生變？英媒：美國警告中國 立即履行釜山貿易協議 - UDN",
+   "source": "UDN",
+   "cat": "其他"
+  },
+  {
+   "country": "TW",
+   "rank": 4,
+   "title": "查帕卡颱風最快今生成 有望轉中颱 專家曝影響台日機率 - UDN",
+   "source": "UDN",
+   "cat": "生活健康"
+  },
+  {
+   "country": "TW",
+   "rank": 5,
+   "title": "美國中期選舉：共和黨失去兩院，對華政策與對台軍售會轉向嗎？ - BBC",
+   "source": "BBC",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
    "rank": 6,
-   "title": "共和黨期中選舉慘敗魯比歐想跳船？本人急駁斥：陪川普做到任期結束 - UDN",
-   "source": "UDN",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 7,
-   "title": "政院指老人免健保3問題...民眾黨團轟：斥千億補中油台電 不願照顧長者 - UDN",
-   "source": "UDN",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 8,
-   "title": "堆疊善意…藍白合升溫 蔣萬安盼同台柯文哲 - UDN",
-   "source": "UDN",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 9,
-   "title": "高雄市長候選人造勢「台下僅坐8人」心酸畫面流出！ - 三立新聞網SETN.com",
+   "title": "再酸蔣萬安模仿、潑髒水　沈伯洋自曝4大優勢：拜託送我進市府 - 三立新聞網SETN.com",
    "source": "三立新聞網SETN.com",
    "cat": "政治"
   },
   {
    "country": "TW",
+   "rank": 7,
+   "title": "批「老人福利法」修法違三大問題 卓內閣第九度不副署法案 - UDN",
+   "source": "UDN",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 8,
+   "title": "老農津貼調增至1萬5000元也不副署？行政院預告：將合法合憲妥善因應 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 9,
+   "title": "只當一任台東縣長就神隱21年！「他」突現身挺昔日政敵女兒陳瑩 - 自由時報",
+   "source": "自由時報",
+   "cat": "其他"
+  },
+  {
+   "country": "TW",
    "rank": 10,
-   "title": "（影）沈伯洋煮咖哩 「甩領帶」意外成焦點 網友直呼超帥 - 自由娛樂",
-   "source": "自由娛樂",
+   "title": "才爆文宣遭撕！蔣萬安掃街又闖「洋流水餃店」 店家：很難沒有聯想 - Yahoo新聞",
+   "source": "Yahoo新聞",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 1,
-   "title": "Democrats have ousted at least 30 Republican incumbents, from swing districts to GOP strongholds - CNN",
-   "source": "CNN",
+   "title": "Trump names Stephen Miller his new chief of staff, replacing Susie Wiles - NBC News",
+   "source": "NBC News",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 2,
-   "title": "How the Texas blue wave came crashing down on Republicans - The Washington Post",
+   "title": "U.S. Attorney Who Oversaw Centerpiece of Trump’s Revenge Campaign Resigns - The New York Times",
+   "source": "The New York Times",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 3,
+   "title": "Houston Mayor John Whitmire directs HPD to reduce cooperation with ICE after midterm results - Houston Public Media",
+   "source": "Houston Public Media",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 4,
+   "title": "Paraguay's President Santiago Peña impeached and arrested - BBC",
+   "source": "BBC",
+   "cat": "政治"
+  },
+  {
+   "country": "US",
+   "rank": 5,
+   "title": "34-Year Navy Veteran Eileen Laubaucher Is on Verge of Unseating Lauren Boebert in Colorado - Military.com",
+   "source": "Military.com",
+   "cat": "科技AI"
+  },
+  {
+   "country": "US",
+   "rank": 6,
+   "title": "Former White House health aide accuses Trump advisers of catering to special interests - The Washington Post",
    "source": "The Washington Post",
    "cat": "政治"
   },
   {
    "country": "US",
-   "rank": 3,
-   "title": "Nithya Raman ousts incumbent Karen Bass in Los Angeles mayor's race, CBS News projects - CBS News",
-   "source": "CBS News",
-   "cat": "政治"
-  },
-  {
-   "country": "US",
-   "rank": 4,
-   "title": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office - The Guardian",
-   "source": "The Guardian",
-   "cat": "政治"
-  },
-  {
-   "country": "US",
-   "rank": 5,
-   "title": "Mississippi Senate election: Democrat Scott Colom narrowly leads Republican Cindy Hyde-Smith - CNBC",
-   "source": "CNBC",
-   "cat": "政治"
-  },
-  {
-   "country": "US",
-   "rank": 6,
-   "title": "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials - BBC",
-   "source": "BBC",
-   "cat": "政治"
-  },
-  {
-   "country": "US",
    "rank": 7,
-   "title": "California Gov. Gavin Newsom plans to commute all death sentences - NBC News",
-   "source": "NBC News",
-   "cat": "社會"
+   "title": "Meghan's estranged father arrested and charged with possessing child sexual abuse materials - AP News",
+   "source": "AP News",
+   "cat": "科技AI"
   },
   {
    "country": "US",
    "rank": 8,
-   "title": "How Abdul El-Sayed actually did with Jewish voters - Politico",
-   "source": "Politico",
+   "title": "Gina Hinojosa names governor transition team, including anti-voucher Republican - Houston Chronicle",
+   "source": "Houston Chronicle",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 9,
-   "title": "Iran war the 'real reason' GOP lost midterms, Vance says, as Trump defends decision - Fox News",
-   "source": "Fox News",
+   "title": "What are the recount rules in tight Mississippi Senate race? - BBC",
+   "source": "BBC",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 10,
-   "title": "‘Hero’ security guard shoots gunman, stopping Tampa Citibank plaza attack: HCSO - WFLA",
-   "source": "WFLA",
-   "cat": "科技AI"
+   "title": "Hegseth Faces Impeachment Effort and Bipartisan Scrutiny After Midterm Elections - The New York Times",
+   "source": "The New York Times",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 1,
-   "title": "ルビオ米国務長官が辞任検討か ブルームバーグ報道 - 日本経済新聞",
-   "source": "日本経済新聞",
-   "cat": "經濟財經"
-  },
-  {
-   "country": "JP",
-   "rank": 2,
-   "title": "バンス氏、外国での戦争反対の「米国第一」に立ち返り支持者の再結集図る…ＳＮＳ投稿で異例の主張展開 - 読売新聞",
+   "title": "［深層ＮＥＷＳ］共和党大敗がトランプ氏に与える影響「権限大きい軍事外交分野でレガシー見いだす」…長島昭久氏 - 読売新聞",
    "source": "読売新聞",
    "cat": "其他"
   },
   {
    "country": "JP",
+   "rank": 2,
+   "title": "石破、小渕氏ら採決棄権 消費減税法案、処分求める声：時事ドットコム - 時事ドットコム",
+   "source": "時事ドットコム",
+   "cat": "政治"
+  },
+  {
+   "country": "JP",
    "rank": 3,
-   "title": "大阪駅前の突起物 「排除アート」否定も、内部文書にあった目的 - 毎日新聞",
-   "source": "毎日新聞",
+   "title": "トランプ大統領 最側近の首席補佐官を交代 中間選大敗による更迭か 後任は強硬派のミラー次席補佐官 - Yahoo!ニュース",
+   "source": "Yahoo!ニュース",
    "cat": "其他"
   },
   {
    "country": "JP",
    "rank": 4,
-   "title": "米民主党、下院で250議席超を獲得へ 上院はアラスカなど2州で大接戦 - CNN",
-   "source": "CNN",
-   "cat": "其他"
+   "title": "「安倍ラインに」中国の改善シグナル 高市首相の「直し」で消失 - 毎日新聞",
+   "source": "毎日新聞",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 5,
-   "title": "週間天気予報 週明けは東北の平地でも雪の可能性 関東も気温急降下 - ウェザーニュース",
+   "title": "超党派議員連盟がICC訪問し赤根所長と面会「支援を強化」 - NHKニュース",
+   "source": "NHKニュース",
+   "cat": "政治"
+  },
+  {
+   "country": "JP",
+   "rank": 6,
+   "title": "駅のホームから転落させ、頸髄損傷など「治癒の見込みないけが」負わせた被告に執行猶予付き有罪判決 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "社會"
+  },
+  {
+   "country": "JP",
+   "rank": 7,
+   "title": "立冬の土曜は昨日より寒い 昼の気温は東京都心で5℃低い予想 - ウェザーニュース",
    "source": "ウェザーニュース",
    "cat": "其他"
   },
   {
    "country": "JP",
-   "rank": 6,
-   "title": "南米パラグアイのサンティアゴ・ペニャ大統領が辞任表明…国内大手デジタル銀行の破綻で野党が辞任要求 - 読売新聞",
-   "source": "読売新聞",
-   "cat": "政治"
-  },
-  {
-   "country": "JP",
-   "rank": 7,
-   "title": "最多期122頭のラッコは1頭のみに…鳥羽水族館の『キラ』天国へ - テレ朝NEWS",
-   "source": "テレ朝NEWS",
-   "cat": "其他"
-  },
-  {
-   "country": "JP",
    "rank": 8,
-   "title": "衆院選挙制度改革で3党が実務者協議 「比例復活」厳格化で参政に打撃 2月衆院選で試算 - 産経ニュース",
-   "source": "産経ニュース",
-   "cat": "政治"
+   "title": "【台風情報】32年ぶり「台風32号」発生へ 来週前半に進路反転 小笠原近海に再接近 今後の進路予想・シミュレーション - Yahoo!ニュース",
+   "source": "Yahoo!ニュース",
+   "cat": "生活健康"
   },
   {
    "country": "JP",
    "rank": 9,
-   "title": "横浜市の原沢敦美市長、脱水症状と疲労で公務キャンセル…市議会答弁中に呼吸荒くなり一般質問は打ち切りに - 読売新聞",
+   "title": "元皇族の久邇邦昭さん死去、９７歳…上皇さまのいとこで戦後に皇籍を離脱 - 読売新聞",
    "source": "読売新聞",
-   "cat": "政治"
+   "cat": "其他"
   },
   {
    "country": "JP",
    "rank": 10,
-   "title": "政府、年内改定「国家安全保障戦略」に「人材力」加え６本柱に拡大へ…ＡＩなど先端分野の人材育成進める - 読売新聞",
-   "source": "読売新聞",
+   "title": "「火がついた人が入ってきた」発見遺体は“第三者” 三重で住宅全焼 - テレ朝NEWS",
+   "source": "テレ朝NEWS",
    "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 1,
-   "title": "이 대통령 “대통령이 SNS 왜 하냐는데…SNS에도 사람이 산다” [지금뉴스] - KBS 뉴스",
-   "source": "KBS 뉴스",
-   "cat": "政治"
+   "title": "트럼프, ‘마가 핵심’ 밀러로 비서실장 전격 교체…반이민 강경파 - 한겨레",
+   "source": "한겨레",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 2,
-   "title": "트럼프 중간선거 참패에 이란전 ‘진퇴양난’…공습도 협상도 어렵다 - 한겨레",
-   "source": "한겨레",
-   "cat": "政治"
+   "title": "李, 본인사건 수사 특검 ‘셀프 임명’ 할 수 있다 - 조선일보",
+   "source": "조선일보",
+   "cat": "社會"
   },
   {
    "country": "KR",
    "rank": 3,
-   "title": "큰 비극 ’쓰나미’ 이런 데 사용?…미 선거 결과 표현에 ’일본 불편’ - 연합뉴스TV",
-   "source": "연합뉴스TV",
-   "cat": "政治"
+   "title": "입동 절기, 찬 바람에 한낮에도 체감온도 뚝 - KBS 뉴스",
+   "source": "KBS 뉴스",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 4,
-   "title": "‘내란 우두머리’ 尹 전 대통령 내년 1월 26일 항소심 선고 - 조선일보",
-   "source": "조선일보",
+   "title": "조셉 윤 전 대사 “민주당 의회 탈환해도 대북·동맹 기본 축 불변…외교는 백악관 영역” - VOA 한국어 홈페이지",
+   "source": "VOA 한국어 홈페이지",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 5,
-   "title": "美 ‘호르무즈 기여’ 요구에 호응… 이란엔 ‘위협 아니다’ 설명 방침 - 동아일보",
-   "source": "동아일보",
+   "title": "\"밴스, 이란전 간접협상 물밑 주도…최근 2주간 직접 관여\" - 연합뉴스TV",
+   "source": "연합뉴스TV",
    "cat": "國際地緣"
   },
   {
    "country": "KR",
    "rank": 6,
-   "title": "김민석 ‘신천치 의혹’ 첫 공개사과···“상처 입은 모든 분께 죄송” - 주간경향",
-   "source": "주간경향",
-   "cat": "其他"
-  },
-  {
-   "country": "KR",
-   "rank": 7,
-   "title": "'조작기소 특검법' 오늘 필리버스터 강제 종결 뒤 통과 전망 - MBC 뉴스",
-   "source": "MBC 뉴스",
-   "cat": "其他"
-  },
-  {
-   "country": "KR",
-   "rank": 8,
-   "title": "맑은 하늘 강한 바람 ‘초겨울 날씨’…토요일은 입동, 영하권 추위 - 한겨레",
-   "source": "한겨레",
-   "cat": "生活健康"
-  },
-  {
-   "country": "KR",
-   "rank": 9,
-   "title": "이재명 대통령 장남, 주진우 국민의힘 의원 명예훼손으로 고소···“특혜 골프는 사실 아냐, 의혹 제기 선 넘은 것” - 경향신문",
+   "title": "[사설]유튜브 시작한 이 대통령, 지금 소통 부족이 문제인가 - 경향신문",
    "source": "경향신문",
    "cat": "政治"
   },
   {
    "country": "KR",
-   "rank": 10,
-   "title": "이번 주말도 서울 곳곳 마라톤·집회…주말마다 교통통제에 시민 불만 - 연합뉴스TV",
+   "rank": 7,
+   "title": "서울 마곡동 온수관 파열…9천여 세대 난방 끊겨 - 연합뉴스TV",
    "source": "연합뉴스TV",
    "cat": "其他"
   },
   {
+   "country": "KR",
+   "rank": 8,
+   "title": "외로움이 집착으로… 6070 스토킹범이 늘고 있다 - 조선일보",
+   "source": "조선일보",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 9,
+   "title": "\"운다, 울어! 살았다\"…급박했던 31주 신생아 '구급차 분만'[뉴스럽다] - 노컷뉴스",
+   "source": "노컷뉴스",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 10,
+   "title": "경찰까지 출동하더니…결국 경호원 고용한 '스카프 아저씨' - 한국경제",
+   "source": "한국경제",
+   "cat": "經濟財經"
+  },
+  {
    "country": "UK",
    "rank": 1,
-   "title": "Henry Nowak's killer has sentence increased to 25 years - BBC",
+   "title": "With Stephen Miller pick, Trump readies for a battle - BBC",
    "source": "BBC",
-   "cat": "其他"
-  },
-  {
-   "country": "UK",
-   "rank": 2,
-   "title": "Gavin Newsom commutes more than 500 death sentences in California - The Guardian",
-   "source": "The Guardian",
-   "cat": "社會"
-  },
-  {
-   "country": "UK",
-   "rank": 3,
-   "title": "Firms told to publish salaries in job adverts ahead of new law - BBC",
-   "source": "BBC",
-   "cat": "其他"
-  },
-  {
-   "country": "UK",
-   "rank": 4,
-   "title": "European Airlines Face Second Wave of Aircraft Bomb Threats - Bloomberg.com",
-   "source": "Bloomberg.com",
-   "cat": "科技AI"
-  },
-  {
-   "country": "UK",
-   "rank": 5,
-   "title": "Murder accused claimed woman found in freezer was alive - BBC",
-   "source": "BBC",
-   "cat": "科技AI"
-  },
-  {
-   "country": "UK",
-   "rank": 6,
-   "title": "Democrats look to reshape America after historic midterm victories - Financial Times",
-   "source": "Financial Times",
    "cat": "政治"
   },
   {
    "country": "UK",
-   "rank": 7,
-   "title": "Flashbulbs, lies and victim blaming: how Russell Brand’s trial unfolded - The Guardian",
+   "rank": 2,
+   "title": "Trans law risks criminalising prayer, warns Church - The Telegraph",
+   "source": "The Telegraph",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "UK",
+   "rank": 3,
+   "title": "Burnham aims for ‘quite radical change’ in support for young people - The Guardian",
    "source": "The Guardian",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 4,
+   "title": "How the polar vortex could affect UK weather for the rest of the winter - The i Paper",
+   "source": "The i Paper",
+   "cat": "生活健康"
+  },
+  {
+   "country": "UK",
+   "rank": 5,
+   "title": "Critical incident declared in Swansea after car 'damaged by gunfire' - with two arrested - Sky News",
+   "source": "Sky News",
    "cat": "社會"
   },
   {
    "country": "UK",
+   "rank": 6,
+   "title": "Boy, six, becomes fifth member of family to die after suspected arson in Ireland - The Guardian",
+   "source": "The Guardian",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
+   "rank": 7,
+   "title": "Russell Brand suspected to have attacked at least 10 other women - The Guardian",
+   "source": "The Guardian",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
    "rank": 8,
-   "title": "Police car set alight in Glasgow amid Bonfire Night trouble - BBC",
+   "title": "Britain’s most successful police force attacks Mahmood’s reforms - The Telegraph",
+   "source": "The Telegraph",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 9,
+   "title": "Three arrested on terror charges after pro-Palestinian Action rally - BBC",
    "source": "BBC",
    "cat": "社會"
   },
   {
    "country": "UK",
-   "rank": 9,
-   "title": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions - Financial Times",
-   "source": "Financial Times",
-   "cat": "其他"
-  },
-  {
-   "country": "UK",
    "rank": 10,
-   "title": "Man leaps from flat window to survive Bonfire Night blaze - Metro.co.uk",
-   "source": "Metro.co.uk",
-   "cat": "社會"
+   "title": "Man jailed after he admitted murdering mother of seven 28 years ago - Sky News",
+   "source": "Sky News",
+   "cat": "科技AI"
   }
  ],
  "daily_counts": {
@@ -2473,6 +2489,36 @@
    "社會": 4,
    "科技AI": 2,
    "政治": 1
+  },
+  "2026-11-07|TW": {
+   "其他": 3,
+   "政治": 6,
+   "生活健康": 1
+  },
+  "2026-11-07|US": {
+   "政治": 8,
+   "科技AI": 2
+  },
+  "2026-11-07|JP": {
+   "其他": 5,
+   "政治": 3,
+   "社會": 1,
+   "生活健康": 1
+  },
+  "2026-11-07|KR": {
+   "其他": 5,
+   "社會": 1,
+   "政治": 2,
+   "國際地緣": 1,
+   "經濟財經": 1
+  },
+  "2026-11-07|UK": {
+   "政治": 1,
+   "國際地緣": 1,
+   "科技AI": 3,
+   "生活健康": 1,
+   "社會": 2,
+   "其他": 2
   }
  }
 }
