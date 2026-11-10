@@ -44,9 +44,10 @@
   "2026-11-06",
   "2026-11-07",
   "2026-11-08",
-  "2026-11-09"
+  "2026-11-09",
+  "2026-11-10"
  ],
- "latest": "2026-11-09",
+ "latest": "2026-11-10",
  "countries": [
   "TW",
   "US",
@@ -74,111 +75,111 @@
  ],
  "share_all": {
   "TW": {
-   "政治": 49.6,
-   "科技AI": 1.3,
+   "政治": 49.8,
+   "科技AI": 1.5,
    "經濟財經": 0.7,
-   "國際地緣": 5.6,
-   "社會": 4.7,
-   "生活健康": 9.3,
+   "國際地緣": 5.7,
+   "社會": 4.8,
+   "生活健康": 9.1,
    "娛樂": 0.0,
    "體育": 0.4,
-   "其他": 28.4
+   "其他": 28.0
   },
   "US": {
-   "政治": 49.8,
-   "科技AI": 25.8,
+   "政治": 50.4,
+   "科技AI": 25.4,
    "經濟財經": 0.4,
    "國際地緣": 2.4,
    "社會": 9.6,
-   "生活健康": 1.8,
+   "生活健康": 1.7,
    "娛樂": 0.2,
    "體育": 0.4,
-   "其他": 9.6
+   "其他": 9.3
   },
   "JP": {
-   "政治": 20.2,
+   "政治": 21.1,
    "科技AI": 0.7,
-   "經濟財經": 4.9,
-   "國際地緣": 8.0,
-   "社會": 16.4,
-   "生活健康": 18.9,
+   "經濟財經": 4.8,
+   "國際地緣": 7.8,
+   "社會": 16.3,
+   "生活健康": 18.7,
    "娛樂": 0.0,
    "體育": 0.2,
-   "其他": 30.7
+   "其他": 30.4
   },
   "KR": {
-   "政治": 34.4,
+   "政治": 34.3,
    "科技AI": 0.4,
-   "經濟財經": 4.9,
-   "國際地緣": 6.0,
-   "社會": 7.1,
-   "生活健康": 3.3,
+   "經濟財經": 5.0,
+   "國際地緣": 6.1,
+   "社會": 7.0,
+   "生活健康": 3.5,
    "娛樂": 0.2,
    "體育": 0.4,
-   "其他": 43.1
+   "其他": 43.0
   },
   "UK": {
-   "政治": 16.2,
-   "科技AI": 40.4,
+   "政治": 16.3,
+   "科技AI": 40.7,
    "經濟財經": 1.3,
-   "國際地緣": 3.1,
-   "社會": 14.4,
+   "國際地緣": 3.0,
+   "社會": 14.6,
    "生活健康": 1.3,
    "娛樂": 0.7,
    "體育": 0.0,
-   "其他": 22.4
+   "其他": 22.2
   }
  },
  "deviation": {
   "US": {
-   "政治": 0.2,
-   "科技AI": 24.5,
+   "政治": 0.6,
+   "科技AI": 23.9,
    "經濟財經": -0.3,
-   "國際地緣": -3.2,
-   "社會": 4.9,
-   "生活健康": -7.5,
+   "國際地緣": -3.3,
+   "社會": 4.8,
+   "生活健康": -7.4,
    "娛樂": 0.2,
    "體育": 0.0,
-   "其他": -18.8
+   "其他": -18.7
   },
   "JP": {
-   "政治": -29.4,
-   "科技AI": -0.6,
-   "經濟財經": 4.2,
-   "國際地緣": 2.4,
-   "社會": 11.7,
+   "政治": -28.7,
+   "科技AI": -0.8,
+   "經濟財經": 4.1,
+   "國際地緣": 2.1,
+   "社會": 11.5,
    "生活健康": 9.6,
    "娛樂": 0.0,
    "體育": -0.2,
-   "其他": 2.3
+   "其他": 2.4
   },
   "KR": {
-   "政治": -15.2,
-   "科技AI": -0.9,
-   "經濟財經": 4.2,
+   "政治": -15.5,
+   "科技AI": -1.1,
+   "經濟財經": 4.3,
    "國際地緣": 0.4,
-   "社會": 2.4,
-   "生活健康": -6.0,
+   "社會": 2.2,
+   "生活健康": -5.6,
    "娛樂": 0.2,
    "體育": 0.0,
-   "其他": 14.7
+   "其他": 15.0
   },
   "UK": {
-   "政治": -33.4,
-   "科技AI": 39.1,
+   "政治": -33.5,
+   "科技AI": 39.2,
    "經濟財經": 0.6,
-   "國際地緣": -2.5,
-   "社會": 9.7,
-   "生活健康": -8.0,
+   "國際地緣": -2.7,
+   "社會": 9.8,
+   "生活健康": -7.8,
    "娛樂": 0.7,
    "體育": -0.4,
-   "其他": -6.0
+   "其他": -5.8
   }
  },
  "tvd": {
-  "US": 29.8,
-  "JP": 30.2,
-  "KR": 22.0,
+  "US": 29.6,
+  "JP": 29.7,
+  "KR": 22.1,
   "UK": 50.2
  },
  "trend_pol": {
@@ -227,7 +228,8 @@
    80.0,
    60.0,
    50.0,
-   50.0
+   50.0,
+   60.0
   ],
   "US": [
    40.0,
@@ -274,7 +276,8 @@
    80.0,
    80.0,
    20.0,
-   60.0
+   60.0,
+   80.0
   ],
   "JP": [
    10.0,
@@ -321,7 +324,8 @@
    30.0,
    30.0,
    40.0,
-   30.0
+   30.0,
+   60.0
   ],
   "KR": [
    40.0,
@@ -368,7 +372,8 @@
    50.0,
    20.0,
    40.0,
-   50.0
+   50.0,
+   30.0
   ],
   "UK": [
    20.0,
@@ -415,6 +420,7 @@
    10.0,
    10.0,
    30.0,
+   20.0,
    20.0
   ]
  },
@@ -464,7 +470,8 @@
    0.0,
    0.0,
    0.0,
-   0.0
+   0.0,
+   10.0
   ],
   "US": [
    0.0,
@@ -511,7 +518,8 @@
    10.0,
    20.0,
    50.0,
-   20.0
+   20.0,
+   10.0
   ],
   "JP": [
    10.0,
@@ -558,7 +566,8 @@
    0.0,
    0.0,
    0.0,
-   10.0
+   10.0,
+   0.0
   ],
   "KR": [
    10.0,
@@ -587,6 +596,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -652,7 +662,8 @@
    20.0,
    30.0,
    20.0,
-   40.0
+   40.0,
+   50.0
   ]
  },
  "trend_eco": {
@@ -701,6 +712,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -743,6 +755,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -795,7 +808,8 @@
    10.0,
    0.0,
    0.0,
-   10.0
+   10.0,
+   0.0
   ],
   "KR": [
    0.0,
@@ -842,6 +856,7 @@
    0.0,
    10.0,
    0.0,
+   10.0,
    10.0
   ],
   "UK": [
@@ -889,360 +904,361 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ]
  },
- "n_rows": 2250,
+ "n_rows": 2300,
  "latest_rows": [
   {
    "country": "TW",
    "rank": 1,
-   "title": "【Yahoo早盤】國安基金出手救市！台股狂飆2000點 分析師李永年：別急著追高 - Yahoo股市",
-   "source": "Yahoo股市",
-   "cat": "政治"
+   "title": "慘況曝！國道嚴重事故…聯結車扭頭「全線封閉」運將一度受困、2傷送醫 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "社會"
   },
   {
    "country": "TW",
    "rank": 2,
-   "title": "降10度！東北季風增強北部轉雨愈晚愈涼 吳德榮：明晨低溫15度 - UDN",
+   "title": "今晨13.1度！今北台偏涼中南部早晚涼 吳德榮：明起氣溫緩升 - UDN",
    "source": "UDN",
-   "cat": "生活健康"
+   "cat": "其他"
   },
   {
    "country": "TW",
    "rank": 3,
-   "title": "最新民調「蘇巧慧42％占上風」 李四川勝選看好度反超了 - Yahoo新聞",
-   "source": "Yahoo新聞",
+   "title": "又有大咖被圈粉！他列「沈伯洋4人格特質」表態挺　吸萬人同意讚爆 - 三立新聞",
+   "source": "三立新聞",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 4,
-   "title": "不滿共和黨敗選 川普稱期中選舉結果使美國倒退一大步 - 世界新聞網",
-   "source": "世界新聞網",
+   "title": "蔣萬安發安心貼紙擠爆大安站 通勤族被迫繞道！競辦急回應 - 自由時報",
+   "source": "自由時報",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 5,
-   "title": "聯合報社論／卓榮泰毀憲不副署，當然要以選票制裁 - UDN",
-   "source": "UDN",
-   "cat": "政治"
+   "title": "〈能源盤後〉川普稱不太可能再攻擊伊朗 Brent盤後跌逾7美元 創8月底來新低 - 鉅亨網",
+   "source": "鉅亨網",
+   "cat": "國際地緣"
   },
   {
    "country": "TW",
    "rank": 6,
-   "title": "日本東北地震！宮城縣外海規模4.5 多地測得震度2 - 東森新聞",
-   "source": "東森新聞",
-   "cat": "生活健康"
+   "title": "沈伯洋壓軸車掃嘉賓掀熱議！網狂喊賈永婕 本尊幽默回應了 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 7,
-   "title": "謝金河控「踢館又一村」王鴻薇反嗆：幻聽嗎 - Yahoo新聞",
+   "title": "獨家! \"藍營包圍\"事件延燒 秦慧珠.苗博雅現身力挺又一村 - Yahoo新聞",
    "source": "Yahoo新聞",
-   "cat": "其他"
+   "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 8,
-   "title": "國軍首位駕F-16越洋女飛官不是「馬尾妹」 真實身分是她 - UDN",
-   "source": "UDN",
-   "cat": "其他"
+   "title": "控垃圾車替蔣萬安拉票！廖玉蕙道歉了：願意負起責任 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 9,
-   "title": "趙少康站台邱臣遠、秦慧珠訪問沈伯洋！藍考紀會主委警告了：後果也要自己擔 - Yahoo新聞",
+   "title": "他曝「蔣萬安必勝投票率」 董智森：投給沈伯洋就是投給曹興誠 - Yahoo新聞",
    "source": "Yahoo新聞",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 10,
-   "title": "稱「繼續演戲」！陳永德深夜突發文「恭喜洋流」：快完結篇了 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "cat": "其他"
+   "title": "江啟臣揹「江大寶」挨批噁心 女童不忍直視、被捉包還可能用AI - 自由時報",
+   "source": "自由時報",
+   "cat": "科技AI"
   },
   {
    "country": "US",
    "rank": 1,
-   "title": "Trump says he was ‘only kidding’ about making UFC head Dana White his press secretary - NBC News",
-   "source": "NBC News",
+   "title": "Hegseth impeachment effort begins in House, focused on Iran war - The Washington Post",
+   "source": "The Washington Post",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 2,
-   "title": "Top House Democrat says he’s a ‘hard yes’ on Pete Hegseth impeachment - The Washington Post",
-   "source": "The Washington Post",
+   "title": "Congress returns for lame-duck sprint after bruising midterm losses for GOP - CBS News",
+   "source": "CBS News",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 3,
-   "title": "Boycott Bike Ride: Boycott of Jewish-owned Philly businesses draws counterprotest - 6abc Philadelphia",
-   "source": "6abc Philadelphia",
-   "cat": "其他"
+   "title": "US supreme court clears way for Trump’s border wall in Texas’s Big Bend - The Guardian",
+   "source": "The Guardian",
+   "cat": "政治"
   },
   {
    "country": "US",
    "rank": 4,
-   "title": "How a Mississippi election came down to the clerk’s office - The Washington Post",
-   "source": "The Washington Post",
+   "title": "Trump says he was 'kidding' about Dana White press secretary offer - BBC",
+   "source": "BBC",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 5,
-   "title": "Deputy White House Chief of Staff Richard Walters exits job ahead of Stephen Miller takeover - Fox News",
+   "title": "White House doubles down after Trump angers base by floating illegal alien deal with Dems - Fox News",
    "source": "Fox News",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 6,
-   "title": "Eisenkot open to Netanyahu joining Israel’s next government - Al Jazeera",
-   "source": "Al Jazeera",
-   "cat": "國際地緣"
-  },
-  {
-   "country": "US",
-   "rank": 7,
-   "title": "Gina Hinojosa Takes on the Texas Government Republicans Built - The New York Times",
-   "source": "The New York Times",
+   "title": "Democrat Eileen Laubacher declares victory over Rep. Lauren Boebert in Colorado’s 4th Congressional District - The Denver Post",
+   "source": "The Denver Post",
    "cat": "政治"
   },
   {
    "country": "US",
+   "rank": 7,
+   "title": "Erika Kirk on Tyler Robinson’s murder trial date: ‘Disappointing’ - The Hill",
+   "source": "The Hill",
+   "cat": "社會"
+  },
+  {
+   "country": "US",
    "rank": 8,
-   "title": "Full transcript of \"Face the Nation with Margaret Brennan,\" Nov. 8, 2026 - CBS News",
-   "source": "CBS News",
+   "title": "Ohio State Suspends Fraternity After 2 Men Catch Fire at a Chapter Gathering - The New York Times",
+   "source": "The New York Times",
    "cat": "科技AI"
   },
   {
    "country": "US",
    "rank": 9,
-   "title": "US Sen. Ron Johnson accuses the Trump administration of corruption - Milwaukee Journal Sentinel",
-   "source": "Milwaukee Journal Sentinel",
+   "title": "Mamdani has quietly asked Trump to release dozens of detained immigrants - Politico",
+   "source": "Politico",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 10,
-   "title": "El-Sayed blasted killing of Al-Qaeda terrorist US citizen in resurfaced article - New York Post",
-   "source": "New York Post",
-   "cat": "科技AI"
+   "title": "Trump says he will not approve wind permits as part of permitting bill - Politico",
+   "source": "Politico",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 1,
-   "title": "トランプ大敗で何が起きる？AI投資減速だけじゃない、日本を襲う「もう一つのリスク」（ダイヤモンド・オンライン） - Yahoo!ニュース",
-   "source": "Yahoo!ニュース",
-   "cat": "科技AI"
+   "title": "アメリカ ヘグセス国防長官 弾劾訴追決議案を共和党議員が提出 - NHKニュース",
+   "source": "NHKニュース",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 2,
-   "title": "消費税減税法案「棄権」、石破前首相や小渕優子・元経産相ら４議員に説明要求…自民執行部・きょう正午まで - 読売新聞",
+   "title": "石破前首相ら４人戒告の自民、党内引き締めに躍起…参院での造反者を懸念「処分は早い方がいい」 - 読売新聞",
    "source": "読売新聞",
    "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 3,
-   "title": "トランプ氏、イランと戦闘再開「可能性低い」 核など交渉進展なら - 日本経済新聞",
-   "source": "日本経済新聞",
-   "cat": "經濟財經"
+   "title": "自民 維新 安全保障3文書改定向けきょうから作業チームが協議 | NHKニュース | 安全保障、防衛 - NHKニュース",
+   "source": "NHKニュース",
+   "cat": "其他"
   },
   {
    "country": "JP",
    "rank": 4,
-   "title": "エジプトで列車衝突事故 7人死亡 112人けが - NHKニュース",
+   "title": "高市政権の中国に対する姿勢 「評価」52％ 「評価しない」39％ - NHKニュース",
    "source": "NHKニュース",
-   "cat": "社會"
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 5,
-   "title": "高市内閣の支持率調査、下落する層と変わらぬ層 それぞれの理由 - 毎日新聞",
-   "source": "毎日新聞",
+   "title": "G7をドタキャンした「高市首相」今度は中国開催「APEC首脳会談」でも窮地に？ 信用失墜で習近平国家主席との会談も絶望的 古賀茂明（AERA DIGITAL） - Yahoo!ニュース",
+   "source": "Yahoo!ニュース",
    "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 6,
-   "title": "イスラエル大統領、野党党首に組閣指示へ 反ネタニヤフ陣営結集へ連立交渉：時事ドットコム - 時事ドットコム",
-   "source": "時事ドットコム",
-   "cat": "政治"
+   "title": "8割近くが屋内で発症「低体温症」の怖さ 毎年1000人超が死亡、気温急降下でリスク増 電気ガス代高騰で“暖房控え”も - FNNプライムオンライン",
+   "source": "FNNプライムオンライン",
+   "cat": "社會"
   },
   {
    "country": "JP",
    "rank": 7,
-   "title": "広い範囲で雨の月曜日 関東は昼間も気温上がらず初冬の寒さ - ウェザーニュース",
-   "source": "ウェザーニュース",
-   "cat": "其他"
-  },
-  {
-   "country": "JP",
-   "rank": 8,
-   "title": "台風32号 10日から11日にかけて「強い」勢力で小笠原諸島に接近か 荒天の恐れ(気象予報士 日直主任) - tenki.jp",
+   "title": "今日10日 全国的に北風が冷たい 関東から北海道は師走並みの寒さが続く(気象予報士 久保 智子) - tenki.jp",
    "source": "tenki.jp",
    "cat": "生活健康"
   },
   {
    "country": "JP",
+   "rank": 8,
+   "title": "元福岡県議、副議長就任後に現金で５００万円超支払い「あしき慣習の中に自分もいた」…実名証言６人目 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
    "rank": 9,
-   "title": "遺体は野々市の26歳女性 首に圧迫した痕跡、死因は急性窒息 監禁容疑の無職男が関与か ｜社会｜石川のニュース - 北國新聞",
-   "source": "北國新聞",
-   "cat": "社會"
+   "title": "公務復帰の川田翔子市長、産休中もオンライン会議２３回「組織や家族の支えがあって両立できた」 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 10,
-   "title": "赤ちゃんを必死で守る保護者の姿も “見守りカメラ”が捉えた地震の瞬間 愛知で約30年ぶり震度5強 - FNNプライムオンライン",
-   "source": "FNNプライムオンライン",
-   "cat": "生活健康"
-  },
-  {
-   "country": "KR",
-   "rank": 1,
-   "title": "[속보]이용철 “대통령과의 친분, 장관 결격 사유 안돼” - 동아일보",
-   "source": "동아일보",
+   "title": "「本人はどこ…？」尼崎市長選で“別人AI選挙ポスター”が波紋…選管が「いたしかたがない」と明かした理由 - 女性自身",
+   "source": "女性自身",
    "cat": "政治"
   },
   {
    "country": "KR",
+   "rank": 1,
+   "title": "외교부, 이란 '파병 자제' 촉구에 \"전쟁 불개입·불관여 원칙 확고\" - MBC 뉴스",
+   "source": "MBC 뉴스",
+   "cat": "國際地緣"
+  },
+  {
+   "country": "KR",
    "rank": 2,
-   "title": "野법사위원들 \"법치주의 무너뜨린 與와 예산심사, 양심이 허락치 않는다\" - 조선일보",
-   "source": "조선일보",
+   "title": "이용철, 공소취소 확답 없이 “원칙 따라”…검찰총장 인선 방향 눈길 - 한겨레",
+   "source": "한겨레",
    "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 3,
-   "title": "'대통령 Y' 회당 제작비 1천 7백여만 원‥총 4편 기획 - MBC 뉴스",
-   "source": "MBC 뉴스",
+   "title": "국민의힘 “특검법 국무회의 상정 연기는 책임 떠넘기기 ‘꼼수’” - KBS 뉴스",
+   "source": "KBS 뉴스",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 4,
-   "title": "민주 “비거주 1주택도 종부세 공제 14억, 정부에 강력 요구” - 한겨레",
-   "source": "한겨레",
+   "title": "미 민주당이 바꿀 한국 통상의 셈법 - 오피니언 | 뉴스 - 대한민국 정책브리핑",
+   "source": "대한민국 정책브리핑",
    "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 5,
-   "title": "“200만원이면 3일 안에 찾아”…관계성 범죄에 기생하는 흥신소들 - 한겨레",
-   "source": "한겨레",
-   "cat": "其他"
+   "title": "당분간 맑고 일교차 큰 가을 날씨 - KBS 뉴스",
+   "source": "KBS 뉴스",
+   "cat": "生活健康"
   },
   {
    "country": "KR",
    "rank": 6,
-   "title": "고물가 뿔난 미 청년 부동층 부상…\"트럼프 지지 젊은 남성들 돌아서\" - 연합뉴스TV",
-   "source": "연합뉴스TV",
-   "cat": "經濟財經"
+   "title": "[원자재 시황] 트럼프 ’비둘기’ 발언에 유가 급락 By EBN - Investing.com 한국어",
+   "source": "Investing.com 한국어",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 7,
+   "title": "[단독] 국방부, 육사 충청 32사단 인근 이전 검토…3군 사관학교 존치 가닥 - 경향신문",
+   "source": "경향신문",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
+   "rank": 8,
+   "title": "\"지치지 마!\" 남대문 스카프 아저씨…이번엔 고등학교에 떴다 - 한국경제",
+   "source": "한국경제",
+   "cat": "經濟財經"
+  },
+  {
+   "country": "KR",
+   "rank": 9,
    "title": "리얼미터 \"이 대통령 국정수행 지지율 35.9%…국힘 39.7%·민주 36.5%\" - 연합뉴스TV",
    "source": "연합뉴스TV",
    "cat": "政治"
   },
   {
    "country": "KR",
-   "rank": 8,
-   "title": "박시영, 국회의원 여론조사·컨설팅 최다 수주…12명에 2억7900만원 받아 - 경향신문",
-   "source": "경향신문",
-   "cat": "政治"
-  },
-  {
-   "country": "KR",
-   "rank": 9,
-   "title": "대전 ‘스토킹 신고’ 전 연인 살해범 신상공개…43살 권종필 - KBS 뉴스",
-   "source": "KBS 뉴스",
-   "cat": "其他"
-  },
-  {
-   "country": "KR",
    "rank": 10,
-   "title": "대구·경북 흐리고 가끔 비…낮 최고 12∼15도 - 연합뉴스",
-   "source": "연합뉴스",
+   "title": "종부세 공제 12억 vs 14억…매도 관망 가능성에도 시장 영향 제한적 - 뉴스1",
+   "source": "뉴스1",
    "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 1,
-   "title": "Briton among six killed by 'far-right' gunman in Krakow rampage - Sky News",
-   "source": "Sky News",
-   "cat": "科技AI"
+   "title": "Trump hails ‘positive momentum’ towards ending Iran war - Financial Times",
+   "source": "Financial Times",
+   "cat": "政治"
   },
   {
    "country": "UK",
    "rank": 2,
-   "title": "Trump 'only kidding' about offering press secretary job to UFC boss Dana White - Sky News",
-   "source": "Sky News",
-   "cat": "政治"
+   "title": "Celebrity fails to lodge appeal over failed injunction and could be named - London Evening Standard",
+   "source": "London Evening Standard",
+   "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 3,
-   "title": "London theme park evacuated after 'threat' received - London Evening Standard",
-   "source": "London Evening Standard",
-   "cat": "其他"
-  },
-  {
-   "country": "UK",
-   "rank": 4,
-   "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government - The Guardian",
-   "source": "The Guardian",
-   "cat": "其他"
-  },
-  {
-   "country": "UK",
-   "rank": 5,
-   "title": "Top House Democrat 'a hard yes' on impeaching Hegseth - BBC",
-   "source": "BBC",
-   "cat": "政治"
-  },
-  {
-   "country": "UK",
-   "rank": 6,
-   "title": "Seven dead and more than 100 injured after trains collide in Egypt - BBC",
+   "title": "How a civil servant got away with juggling five jobs for so long - BBC",
    "source": "BBC",
    "cat": "科技AI"
   },
   {
    "country": "UK",
+   "rank": 4,
+   "title": "Trump’s pathetic Dana White gambit could not mask his midterm humiliation | Howard Bryant - The Guardian",
+   "source": "The Guardian",
+   "cat": "政治"
+  },
+  {
+   "country": "UK",
+   "rank": 5,
+   "title": "Trans bill violates rule of law, says former chief prosecutor - The Telegraph",
+   "source": "The Telegraph",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
+   "rank": 6,
+   "title": "Carrie Mullane: Body found during search for missing woman - BBC",
+   "source": "BBC",
+   "cat": "社會"
+  },
+  {
+   "country": "UK",
    "rank": 7,
-   "title": "Russell Brand’s crimes are ‘probably happening today’ in entertainment industry, says Nandy - The Independent",
-   "source": "The Independent",
+   "title": "UK's Russell Brand sentenced to 10-and-a-half years in jail for rape, sexual assault - Reuters",
+   "source": "Reuters",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 8,
-   "title": "Remembrance Sunday latest: King Charles leads service, as 10,000 veterans march past Cenotaph in London - Sky News",
+   "title": "James Bulger's mother's 'relief' as killer Jon Venables kept in prison - but 'harrowing' process begins again - Sky News",
    "source": "Sky News",
-   "cat": "其他"
-  },
-  {
-   "country": "UK",
-   "rank": 9,
-   "title": "Met Office issues weather warning as UK conditions create ‘perfect recipe’ for fog | UK weather - The Guardian",
-   "source": "The Guardian",
    "cat": "科技AI"
   },
   {
    "country": "UK",
+   "rank": 9,
+   "title": "Runcorn dad dies in crash as family issue heartbreaking tribute - Liverpool Echo",
+   "source": "Liverpool Echo",
+   "cat": "社會"
+  },
+  {
+   "country": "UK",
    "rank": 10,
-   "title": "UK culture secretary Lisa Nandy questions whether rejoining EU is a ‘choice we have’ - Financial Times",
-   "source": "Financial Times",
-   "cat": "其他"
+   "title": "Oxford recreation ground still cordoned off as police launch rape investigation - Oxford Mail",
+   "source": "Oxford Mail",
+   "cat": "科技AI"
   }
  ],
  "daily_counts": {
@@ -2608,6 +2624,37 @@
    "科技AI": 4,
    "政治": 2,
    "其他": 4
+  },
+  "2026-11-10|TW": {
+   "社會": 1,
+   "其他": 1,
+   "政治": 6,
+   "國際地緣": 1,
+   "科技AI": 1
+  },
+  "2026-11-10|US": {
+   "政治": 8,
+   "社會": 1,
+   "科技AI": 1
+  },
+  "2026-11-10|JP": {
+   "政治": 6,
+   "其他": 2,
+   "社會": 1,
+   "生活健康": 1
+  },
+  "2026-11-10|KR": {
+   "國際地緣": 1,
+   "其他": 4,
+   "政治": 3,
+   "生活健康": 1,
+   "經濟財經": 1
+  },
+  "2026-11-10|UK": {
+   "政治": 2,
+   "科技AI": 5,
+   "其他": 1,
+   "社會": 2
   }
  }
 }
