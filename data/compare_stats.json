@@ -49,9 +49,10 @@
   "2026-11-11",
   "2026-11-12",
   "2026-11-14",
-  "2026-11-15"
+  "2026-11-15",
+  "2026-11-16"
  ],
- "latest": "2026-11-15",
+ "latest": "2026-11-16",
  "countries": [
   "TW",
   "US",
@@ -79,112 +80,112 @@
  ],
  "share_all": {
   "TW": {
-   "政治": 50.0,
+   "政治": 50.4,
    "科技AI": 1.8,
    "經濟財經": 0.6,
-   "國際地緣": 5.6,
-   "社會": 5.0,
-   "生活健康": 9.0,
+   "國際地緣": 5.7,
+   "社會": 4.9,
+   "生活健康": 8.8,
    "娛樂": 0.0,
    "體育": 0.4,
-   "其他": 27.6
+   "其他": 27.5
   },
   "US": {
-   "政治": 49.4,
-   "科技AI": 25.2,
+   "政治": 49.2,
+   "科技AI": 24.9,
    "經濟財經": 0.6,
-   "國際地緣": 2.6,
+   "國際地緣": 2.9,
    "社會": 9.4,
    "生活健康": 1.8,
    "娛樂": 0.2,
    "體育": 0.6,
-   "其他": 10.2
+   "其他": 10.4
   },
   "JP": {
    "政治": 21.4,
    "科技AI": 0.6,
-   "經濟財經": 4.6,
+   "經濟財經": 4.5,
    "國際地緣": 8.4,
-   "社會": 16.2,
-   "生活健康": 17.6,
+   "社會": 16.3,
+   "生活健康": 17.3,
    "娛樂": 0.0,
    "體育": 0.2,
-   "其他": 31.0
+   "其他": 31.4
   },
   "KR": {
-   "政治": 33.8,
+   "政治": 33.7,
    "科技AI": 0.8,
-   "經濟財經": 5.0,
-   "國際地緣": 5.8,
-   "社會": 7.4,
-   "生活健康": 3.4,
+   "經濟財經": 4.9,
+   "國際地緣": 5.7,
+   "社會": 7.3,
+   "生活健康": 3.5,
    "娛樂": 0.2,
    "體育": 0.4,
-   "其他": 43.2
+   "其他": 43.5
   },
   "UK": {
-   "政治": 15.4,
-   "科技AI": 41.8,
+   "政治": 15.3,
+   "科技AI": 42.0,
    "經濟財經": 1.2,
-   "國際地緣": 3.0,
-   "社會": 15.2,
+   "國際地緣": 2.9,
+   "社會": 15.1,
    "生活健康": 1.4,
    "娛樂": 0.6,
    "體育": 0.0,
-   "其他": 21.4
+   "其他": 21.6
   }
  },
  "deviation": {
   "US": {
-   "政治": -0.6,
-   "科技AI": 23.4,
+   "政治": -1.2,
+   "科技AI": 23.1,
    "經濟財經": 0.0,
-   "國際地緣": -3.0,
-   "社會": 4.4,
-   "生活健康": -7.2,
+   "國際地緣": -2.8,
+   "社會": 4.5,
+   "生活健康": -7.0,
    "娛樂": 0.2,
    "體育": 0.2,
-   "其他": -17.4
+   "其他": -17.1
   },
   "JP": {
-   "政治": -28.6,
+   "政治": -29.0,
    "科技AI": -1.2,
-   "經濟財經": 4.0,
-   "國際地緣": 2.8,
-   "社會": 11.2,
-   "生活健康": 8.6,
+   "經濟財經": 3.9,
+   "國際地緣": 2.7,
+   "社會": 11.4,
+   "生活健康": 8.5,
    "娛樂": 0.0,
    "體育": -0.2,
-   "其他": 3.4
+   "其他": 3.9
   },
   "KR": {
-   "政治": -16.2,
+   "政治": -16.7,
    "科技AI": -1.0,
-   "經濟財經": 4.4,
-   "國際地緣": 0.2,
+   "經濟財經": 4.3,
+   "國際地緣": 0.0,
    "社會": 2.4,
-   "生活健康": -5.6,
+   "生活健康": -5.3,
    "娛樂": 0.2,
    "體育": 0.0,
-   "其他": 15.6
+   "其他": 16.0
   },
   "UK": {
-   "政治": -34.6,
-   "科技AI": 40.0,
+   "政治": -35.1,
+   "科技AI": 40.2,
    "經濟財經": 0.6,
-   "國際地緣": -2.6,
+   "國際地緣": -2.8,
    "社會": 10.2,
-   "生活健康": -7.6,
+   "生活健康": -7.4,
    "娛樂": 0.6,
    "體育": -0.4,
-   "其他": -6.2
+   "其他": -5.9
   }
  },
  "tvd": {
-  "US": 28.2,
-  "JP": 30.0,
-  "KR": 22.8,
-  "UK": 51.4
+  "US": 28.1,
+  "JP": 30.4,
+  "KR": 22.9,
+  "UK": 51.6
  },
  "trend_pol": {
   "TW": [
@@ -237,7 +238,8 @@
    40.0,
    70.0,
    50.0,
-   50.0
+   50.0,
+   70.0
   ],
   "US": [
    40.0,
@@ -289,7 +291,8 @@
    40.0,
    40.0,
    40.0,
-   30.0
+   30.0,
+   40.0
   ],
   "JP": [
    10.0,
@@ -341,7 +344,8 @@
    50.0,
    20.0,
    30.0,
-   0.0
+   0.0,
+   20.0
   ],
   "KR": [
    40.0,
@@ -393,7 +397,8 @@
    60.0,
    20.0,
    20.0,
-   10.0
+   10.0,
+   30.0
   ],
   "UK": [
    20.0,
@@ -445,6 +450,7 @@
    10.0,
    0.0,
    0.0,
+   10.0,
    10.0
   ]
  },
@@ -499,6 +505,7 @@
    10.0,
    10.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -551,6 +558,7 @@
    20.0,
    30.0,
    30.0,
+   10.0,
    10.0
   ],
   "JP": [
@@ -599,6 +607,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0,
@@ -655,7 +664,8 @@
    0.0,
    0.0,
    10.0,
-   10.0
+   10.0,
+   0.0
   ],
   "UK": [
    50.0,
@@ -707,7 +717,8 @@
    70.0,
    70.0,
    40.0,
-   40.0
+   40.0,
+   50.0
   ]
  },
  "trend_eco": {
@@ -761,6 +772,7 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ],
   "US": [
@@ -811,6 +823,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0,
    0.0,
    0.0
@@ -865,6 +878,7 @@
    0.0,
    0.0,
    10.0,
+   0.0,
    0.0
   ],
   "KR": [
@@ -917,7 +931,8 @@
    10.0,
    0.0,
    0.0,
-   10.0
+   10.0,
+   0.0
   ],
   "UK": [
    0.0,
@@ -969,360 +984,361 @@
    0.0,
    0.0,
    0.0,
+   0.0,
    0.0
   ]
  },
- "n_rows": 2500,
+ "n_rows": 2550,
  "latest_rows": [
   {
    "country": "TW",
    "rank": 1,
-   "title": "冬衣準備好 東北季風接力短暫回暖再急凍 這天冷空氣殺到下探14度低溫 - UDN",
-   "source": "UDN",
-   "cat": "生活健康"
+   "title": "【Yahoo早盤】台股又破4萬3...一度重挫近1300點 分析師陳石輝：整理期收紅不易 - Yahoo股市",
+   "source": "Yahoo股市",
+   "cat": "其他"
   },
   {
    "country": "TW",
    "rank": 2,
-   "title": "東發號餐費羅生門！饒河自治會長還原始末 - Yahoo新聞",
-   "source": "Yahoo新聞",
+   "title": "周三下午鋒面通過全台變天 吳德榮：這2天明顯轉涼 最低溫僅11度 - UDN",
+   "source": "UDN",
    "cat": "其他"
   },
   {
    "country": "TW",
    "rank": 3,
-   "title": "嗆沈伯洋死定了、蔣萬安是郭萬安還有高歌金包銀　台北政見會怪招百出 - 三立新聞網SETN.com",
+   "title": "陪沈伯洋車掃超嗨！網揪陳其邁手上應援牌「1細節」：有梗有聲音 - 三立新聞網SETN.com",
    "source": "三立新聞網SETN.com",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 4,
-   "title": "蔣萬安「安心大遊行」突破8萬人！媒體人：藍白支持者憋很久了 - Yahoo新聞",
-   "source": "Yahoo新聞",
-   "cat": "政治"
-  },
-  {
-   "country": "TW",
-   "rank": 5,
-   "title": "康永哥！沈柏洋會哭欸 他深夜突提「這2字」網秒懂：振聾發聵... - 民視新聞網",
-   "source": "民視新聞網",
-   "cat": "其他"
-  },
-  {
-   "country": "TW",
-   "rank": 6,
-   "title": "澤倫斯基：美方提出烏克蘭撤出頓巴斯換取加入北約| 國際 - 中央社 CNA",
-   "source": "中央社 CNA",
+   "title": "911後最慘紀錄…更換系統當機全美航班停飛 川普歸咎拜登政府 - UDN",
+   "source": "UDN",
    "cat": "國際地緣"
   },
   {
    "country": "TW",
+   "rank": 5,
+   "title": "北市長民調》蔣萬安連任拉緊報！沈伯洋46.3%超車4.1% 四大指標全領先| 政治 - Newtalk新聞",
+   "source": "Newtalk新聞",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
+   "rank": 6,
+   "title": "造謠沈伯洋上摩鐵 女網友認了造假 調查局依意圖使人不當選送辦 - 自由時報",
+   "source": "自由時報",
+   "cat": "政治"
+  },
+  {
+   "country": "TW",
    "rank": 7,
-   "title": "蘇巧慧造勢「門牙撞斷」濺血！沈伯洋致電關心大讚：她非常堅強 - 三立新聞網SETN.com",
-   "source": "三立新聞網SETN.com",
+   "title": "大洋流車掃最終場 賴總統贈沈伯洋水滴寶劍 - UDN",
+   "source": "UDN",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 8,
-   "title": "全國普發一萬最新進度！「財政部公布最快這天進帳」ATM郵局領現時間曝，7地區加碼最高再領10000元 - 風傳媒",
-   "source": "風傳媒",
-   "cat": "其他"
+   "title": "新北封關民調！李四川37%領先蘇巧慧 逾1成未表態 - Yahoo新聞",
+   "source": "Yahoo新聞",
+   "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 9,
-   "title": "沈伯洋市場拜票一幕！店家送東西「他秒掏錢包」 台大醫：修養從小處看 - Yahoo新聞",
-   "source": "Yahoo新聞",
+   "title": "快訊／「蔣萬安很可憐」館長合體掃街喊：他是全台灣唯一希望 - NOWnews今日新聞",
+   "source": "NOWnews今日新聞",
    "cat": "政治"
   },
   {
    "country": "TW",
    "rank": 10,
-   "title": "不怕下雨！洋流祭擠爆228公園 李怡貞帶愛女挺沈伯洋：只為下一代未來 - Yahoo新聞",
-   "source": "Yahoo新聞",
+   "title": "綠營老將婚外情／交棒兒子卻爆婚外情　八連霸議員陳永福遭控拒付婚外子女扶養費 - 鏡週刊Mirror Media",
+   "source": "鏡週刊Mirror Media",
    "cat": "政治"
   },
   {
    "country": "US",
    "rank": 1,
-   "title": "Bomb found near ethanol plant in central Illinois forces evacuations - NPR",
-   "source": "NPR",
-   "cat": "其他"
+   "title": "Lutnick under fire: How Trump’s commerce secretary cultivated Nvidia’s CEO while chip controls slipped - CNN",
+   "source": "CNN",
+   "cat": "政治"
   },
   {
    "country": "US",
    "rank": 2,
-   "title": "Stephen Miller faces first crisis as White House chief of staff - The Washington Post",
-   "source": "The Washington Post",
-   "cat": "政治"
+   "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history' - BBC",
+   "source": "BBC",
+   "cat": "國際地緣"
   },
   {
    "country": "US",
    "rank": 3,
-   "title": "Why Mary Peltola is on track to win in Alaska, even if ranked choice ballots come into play - NBC News",
-   "source": "NBC News",
-   "cat": "其他"
+   "title": "New Orleans port sues owners of tanker involved in Mississippi crash - NPR",
+   "source": "NPR",
+   "cat": "社會"
   },
   {
    "country": "US",
    "rank": 4,
-   "title": "Trump Kept Out of Sight as F.A.A. Issued Flight Ground Stop - The New York Times",
-   "source": "The New York Times",
-   "cat": "政治"
+   "title": "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
+   "source": "Fox News",
+   "cat": "國際地緣"
   },
   {
    "country": "US",
    "rank": 5,
-   "title": "Duffy’s briefing on ground stop disrupted by tech difficulties: ‘This is not operational?’ - The Washington Post",
-   "source": "The Washington Post",
-   "cat": "科技AI"
+   "title": "Foreign leaders look beyond Trump on his Asian meeting spree - Politico",
+   "source": "Politico",
+   "cat": "政治"
   },
   {
    "country": "US",
    "rank": 6,
-   "title": "New Orleans port sues tanker owners over cruise ship collision for $1m - BBC",
-   "source": "BBC",
+   "title": "Huge waves pummel California coast, forcing closure of popular piers - The Guardian",
+   "source": "The Guardian",
    "cat": "其他"
   },
   {
    "country": "US",
    "rank": 7,
-   "title": "Thousands of Flights Are Canceled After Friday’s Nationwide Ground Stop: Live Updates - The New York Times",
+   "title": "Flight Delays and Cancellations Persist as System Recovers From Ground Stop - The New York Times",
    "source": "The New York Times",
    "cat": "其他"
   },
   {
    "country": "US",
    "rank": 8,
-   "title": "Judge in golf course case says inquiry into DOJ lawyers will proceed - The Washington Post",
+   "title": "Trump vows appeal of East Potomac ruling as golf operations remain unclear - The Washington Post",
    "source": "The Washington Post",
-   "cat": "體育"
-  },
-  {
-   "country": "US",
-   "rank": 9,
-   "title": "‘We must deliver’: jubilant Democrats gather in Denver to chart way forward - The Guardian",
-   "source": "The Guardian",
    "cat": "政治"
   },
   {
    "country": "US",
+   "rank": 9,
+   "title": "Sen. Bill Cassidy slams RFK Jr. for \"series of failures\" as Health Secretary - CBS News",
+   "source": "CBS News",
+   "cat": "科技AI"
+  },
+  {
+   "country": "US",
    "rank": 10,
-   "title": "Video: Dangerous waves, biggest in a decade, flood Bay Area streets and threaten homes - San Francisco Chronicle",
-   "source": "San Francisco Chronicle",
-   "cat": "其他"
+   "title": "Koh blames Trump for blocking Biden-era infrastructure, FAA funding - The Hill",
+   "source": "The Hill",
+   "cat": "政治"
   },
   {
    "country": "JP",
    "rank": 1,
-   "title": "「NATO加盟条件にドンバス放棄」米がウクライナに可否質問 ゼレンスキー氏公表 - 産経ニュース",
+   "title": "再選挙の福岡市長選挙、後継指名なく主要政党も組織的な動き見せず…対立軸なく混戦に拍車 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "政治"
+  },
+  {
+   "country": "JP",
+   "rank": 2,
+   "title": "エストニア、ロシアとの国境を12月から全面閉鎖 防衛企業の放火未遂など破壊工作に対抗 - 産経ニュース",
    "source": "産経ニュース",
    "cat": "國際地緣"
   },
   {
    "country": "JP",
-   "rank": 2,
-   "title": "中国への警戒を緩めない米国、「中国脅威論」いかに生まれたか - 読売新聞",
-   "source": "読売新聞",
-   "cat": "國際地緣"
-  },
-  {
-   "country": "JP",
    "rank": 3,
-   "title": "今日11月15日(日)の天気予報 低気圧や前線が通過し全国的に雨 激しく降る所も - ウェザーニュース",
-   "source": "ウェザーニュース",
+   "title": "再建なった首里城正殿、完成式を前に内部公開…豪華な装飾は新たな知見を反映しより忠実に再現 - 読売新聞",
+   "source": "読売新聞",
    "cat": "其他"
   },
   {
    "country": "JP",
    "rank": 4,
-   "title": "３歳女児の遺体にあざ５０か所、逮捕の父「しつけで殴ったことある」…大阪・枚方虐待死 - 読売新聞",
+   "title": "大阪３歳児死亡、逮捕された母親「夫が娘を殴るのを数回見た」…児童相談所は接触せず - 読売新聞",
    "source": "読売新聞",
    "cat": "社會"
   },
   {
    "country": "JP",
    "rank": 5,
-   "title": "愛知県小牧市の住宅に男ら侵入、住人女性が襲われ肺に穴など重傷 中学生を含む男ら5人を現行犯逮捕 - 中日新聞Web",
+   "title": "宿題ぐらい「自力でやらないと」…でも勉強はチャッピー頼み、思考丸投げ「自分の今後怖い」 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 6,
+   "title": "週間天気予報 18日(水)は荒天警戒 その後は冬型強まる - ウェザーニュース",
+   "source": "ウェザーニュース",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 7,
+   "title": "５０万人都市で約４７００票差 中野氏が田中氏との激戦制す 松山市長選挙の開票結果【愛媛】 - FNNプライムオンライン",
+   "source": "FNNプライムオンライン",
+   "cat": "政治"
+  },
+  {
+   "country": "JP",
+   "rank": 8,
+   "title": "【速報】京都府舞鶴市議選で新市議24人決まる 顔ぶれに大きな変化【当選者と票数の一覧】 - 京都新聞デジタル",
+   "source": "京都新聞デジタル",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 9,
+   "title": "小泉防衛相、ＡＩ基本方針見直しを表明…「ＡＩとデータを実際の防衛力強化につなげる」 - 読売新聞",
+   "source": "読売新聞",
+   "cat": "其他"
+  },
+  {
+   "country": "JP",
+   "rank": 10,
+   "title": "愛知県小牧市の強盗殺人未遂事件 容疑者の1人の両親が中日新聞の取材に応じる：中日新聞Web - 中日新聞Web",
    "source": "中日新聞Web",
    "cat": "社會"
   },
   {
-   "country": "JP",
-   "rank": 6,
-   "title": "【地震情報】熊本県で震度3 津波の心配なし(06:17） - NHKニュース",
-   "source": "NHKニュース",
-   "cat": "生活健康"
-  },
-  {
-   "country": "JP",
-   "rank": 7,
-   "title": "＜主張＞続く道新記者拘束 露は「人質外交」をやめよ 社説 - 産経ニュース",
-   "source": "産経ニュース",
-   "cat": "其他"
-  },
-  {
-   "country": "JP",
-   "rank": 8,
-   "title": "ひと目でわかる今日の傘マップ 11月15日(日) - ウェザーニュース",
-   "source": "ウェザーニュース",
-   "cat": "其他"
-  },
-  {
-   "country": "JP",
-   "rank": 9,
-   "title": "「異様な中国軍機」と空自機が近距離でにらみ合い「突起物だらけの外観」を防衛省が公開 - carview!",
-   "source": "carview!",
-   "cat": "國際地緣"
-  },
-  {
-   "country": "JP",
-   "rank": 10,
-   "title": "日英伊の次期戦闘機開発巡り、伊が独の正式参加に反対か 英報道 - 毎日新聞",
-   "source": "毎日新聞",
-   "cat": "其他"
-  },
-  {
    "country": "KR",
    "rank": 1,
-   "title": "세무사 시험 수석, 경찰에 ‘AI 부정행위’ 자수…“초소형 카메라 이용했다” - 경향신문",
-   "source": "경향신문",
-   "cat": "科技AI"
-  },
-  {
-   "country": "KR",
-   "rank": 2,
-   "title": "달라 보여도 ‘같은 병’…민주·국힘, 강성 당원에 휘둘려 자기 파괴로 - 한겨레",
+   "title": "한 총리, ‘수능 AI 부정행위’ 대응팀 구성…“시험 뒤 이상징후도 조사” - 한겨레",
    "source": "한겨레",
-   "cat": "其他"
-  },
-  {
-   "country": "KR",
-   "rank": 3,
-   "title": "李, 檢 비판한 친명 의원 격려하며 \"사법살인·정치탄압 건너는 동안 제 곁에서 고생\" - 조선일보",
-   "source": "조선일보",
    "cat": "政治"
   },
   {
    "country": "KR",
+   "rank": 2,
+   "title": "[뉴스 분석] 미중러 정상회담의 국제정치적 의미와 한국에 미칠 영향 - 뉴스핌",
+   "source": "뉴스핌",
+   "cat": "政治"
+  },
+  {
+   "country": "KR",
+   "rank": 3,
+   "title": "박성준 “한덕수 석방은 조희대 처리 문제로 직결···비상한 결정할 시기” - 경향신문",
+   "source": "경향신문",
+   "cat": "其他"
+  },
+  {
+   "country": "KR",
    "rank": 4,
-   "title": "국힘 \"특검 의결하면 국무위원도 감옥행\"…부산서 규탄 집회 - 한국경제",
-   "source": "한국경제",
-   "cat": "經濟財經"
+   "title": "[속보] 최민희 등 친청계, 최고위 참석... 불참 사흘 만 - 조선일보",
+   "source": "조선일보",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 5,
-   "title": "오전부터 차차 맑아져…11월엔 따뜻한 낮 - 한겨레",
-   "source": "한겨레",
+   "title": "트럼프, 전국 항공편 마비 사태에 \"관제 시스템 전면 개편 예산 승인해야\" - VOA 한국어 홈페이지",
+   "source": "VOA 한국어 홈페이지",
    "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 6,
-   "title": "“죽고 싶다” 아파트에 불 지른 40대 구속···1명 사망·13명 부상 - 경향신문",
-   "source": "경향신문",
-   "cat": "社會"
+   "title": "한-일 정상회담 필리핀서 17일 개최…“지역·국제 정세 논의” - 한겨레",
+   "source": "한겨레",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 7,
-   "title": "‘궁성 폭파 시도’ 김석영 선생 등 206명 독립유공자 포상 - KBS 뉴스",
-   "source": "KBS 뉴스",
-   "cat": "其他"
+   "title": "리얼미터 \"이 대통령 국정 지지도 36.4%…0.5%p 상승\" - 연합뉴스TV",
+   "source": "연합뉴스TV",
+   "cat": "政治"
   },
   {
    "country": "KR",
    "rank": 8,
-   "title": "쉼터 전전하던 15세 소녀의 죽음…작동하지 않은 청소년 안전망 - 노컷뉴스",
-   "source": "노컷뉴스",
-   "cat": "其他"
+   "title": "[내일날씨] 전국 흐리고 오후부터 비…강원 산지 눈 소식 - 연합뉴스",
+   "source": "연합뉴스",
+   "cat": "生活健康"
   },
   {
    "country": "KR",
    "rank": 9,
-   "title": "추가폭로 속 친한계 징계소송 판결도 임박…국힘 내홍확산 기로 - 연합뉴스",
-   "source": "연합뉴스",
-   "cat": "社會"
+   "title": "국힘, 오늘 靑 앞 최고위회의‥'조작기소 특검법' 거부권 압박 - MBC 뉴스",
+   "source": "MBC 뉴스",
+   "cat": "其他"
   },
   {
    "country": "KR",
    "rank": 10,
-   "title": "대구·경북 대체로 흐리고 오전까지 빗방울…낮 기온 16∼20도 - 연합뉴스",
+   "title": "종로구, '부암동 제비로드' 등 골목형상점가 4곳 지정 - 연합뉴스",
    "source": "연합뉴스",
    "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 1,
-   "title": "US asked if Ukraine would give up parts of Donbas for NATO membership, Zelenskyy says - Sky News",
+   "title": "PM to say 'Brexit hasn't worked' and set out conditions for future EU deal in major speech - Sky News",
    "source": "Sky News",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 2,
-   "title": "Cold weather health alerts issued for parts of UK on Sunday night | UK weather - The Guardian",
-   "source": "The Guardian",
-   "cat": "生活健康"
+   "title": "Cut national insurance for under-25s to create jobs, Milburn report to say - BBC",
+   "source": "BBC",
+   "cat": "其他"
   },
   {
    "country": "UK",
    "rank": 3,
-   "title": "Thomas Oduro: Murder investigation launched over 21-year-old's death - BBC",
-   "source": "BBC",
-   "cat": "社會"
+   "title": "Prince Harry tells Ukrainians they are ‘going to win war’ on surprise trip to Lviv - The Guardian",
+   "source": "The Guardian",
+   "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 4,
-   "title": "Neets review won't be for the faint-hearted - and will test Burnham's appetite for a welfare fight - BBC",
-   "source": "BBC",
+   "title": "Forecasters warn of disruption as snow warning issued - ITVX",
+   "source": "ITVX",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 5,
-   "title": "Mike Johnson: ‘Leaders have to take responsibility when things go wrong’ - The Guardian",
-   "source": "The Guardian",
+   "title": "Government to consider staggered age of consent after Russell Brand allegations | ITV News - ITVX",
+   "source": "ITVX",
    "cat": "科技AI"
   },
   {
    "country": "UK",
    "rank": 6,
-   "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years - The Guardian",
+   "title": "Labour rebellion over Rosebank oilfield expected to top 100 MPs - The Guardian",
    "source": "The Guardian",
    "cat": "政治"
   },
   {
    "country": "UK",
    "rank": 7,
-   "title": "Alleged Russell Brand rape victim wants age of consent law changed - BBC",
+   "title": "Women prosecuted for abortions hail ‘historic day’ after receiving pardon - The Guardian",
+   "source": "The Guardian",
+   "cat": "科技AI"
+  },
+  {
+   "country": "UK",
+   "rank": 8,
+   "title": "Moment dad found 27 abandoned children at nanny's home - Metro.co.uk",
+   "source": "Metro.co.uk",
+   "cat": "其他"
+  },
+  {
+   "country": "UK",
+   "rank": 9,
+   "title": "Tories pledge to halt screen-based school exams and cut coursework - BBC",
    "source": "BBC",
    "cat": "其他"
   },
   {
    "country": "UK",
-   "rank": 8,
-   "title": "Body of man, 26, found in canal after Coronation Street star issued urgent missing person plea during two-week search - The Sun",
-   "source": "The Sun",
-   "cat": "社會"
-  },
-  {
-   "country": "UK",
-   "rank": 9,
-   "title": "Arrest after suspected stolen car crashes on M62 - BBC",
-   "source": "BBC",
-   "cat": "社會"
-  },
-  {
-   "country": "UK",
    "rank": 10,
-   "title": "US Air Force says it dealt with ‘unauthorized drone activity’ over UK airbase - The Times of Israel",
-   "source": "The Times of Israel",
-   "cat": "科技AI"
+   "title": "Two people dead after car being pursued by police crashes with their vehicle - ITVX",
+   "source": "ITVX",
+   "cat": "社會"
   }
  ],
  "daily_counts": {
@@ -2846,6 +2862,35 @@
    "社會": 3,
    "政治": 1,
    "其他": 1
+  },
+  "2026-11-16|TW": {
+   "其他": 2,
+   "政治": 7,
+   "國際地緣": 1
+  },
+  "2026-11-16|US": {
+   "政治": 4,
+   "國際地緣": 2,
+   "社會": 1,
+   "其他": 2,
+   "科技AI": 1
+  },
+  "2026-11-16|JP": {
+   "政治": 2,
+   "國際地緣": 1,
+   "其他": 5,
+   "社會": 2
+  },
+  "2026-11-16|KR": {
+   "政治": 3,
+   "其他": 6,
+   "生活健康": 1
+  },
+  "2026-11-16|UK": {
+   "科技AI": 5,
+   "其他": 3,
+   "政治": 1,
+   "社會": 1
   }
  }
 }
